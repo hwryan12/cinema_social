@@ -3553,6 +3553,718 @@
         }
       },
       "recorded_at": "Fri, 24 Mar 2023 19:56:21 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=The%20Godfather",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 13:43:05 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "56a64f47f8106d7619e8171cd39534d0"
+          ],
+          "X-Memc-Age": [
+            "18612"
+          ],
+          "X-Memc-Expires": [
+            "2988"
+          ],
+          "Etag": [
+            "W/\"9e6843650ea5f25e353c0a273e91e9e1\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 96971091469e558c8f8e351ccf0d7212.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "5_a2OGw43MBZGnFjDCooRYbcte-hJwSiYUwawhOnqEEzGc0YoR7GGQ=="
+          ],
+          "Age": [
+            "27868"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":\"/tmU7GeKVybMWFButWEGl2M4GeiP.jpg\",\"genre_ids\":[18,80],\"id\":238,\"original_language\":\"en\",\"original_title\":\"The Godfather\",\"overview\":\"Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.\",\"popularity\":120.733,\"poster_path\":\"/3bhkrj58Vtu7enYsRolD1fZdja1.jpg\",\"release_date\":\"1972-03-14\",\"title\":\"The Godfather\",\"video\":false,\"vote_average\":8.712,\"vote_count\":17642},{\"adult\":false,\"backdrop_path\":\"/kGzFbGhp99zva6oZODW5atUtnqi.jpg\",\"genre_ids\":[18,80],\"id\":240,\"original_language\":\"en\",\"original_title\":\"The Godfather Part II\",\"overview\":\"In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.\",\"popularity\":82.896,\"poster_path\":\"/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg\",\"release_date\":\"1974-12-20\",\"title\":\"The Godfather Part II\",\"video\":false,\"vote_average\":8.597,\"vote_count\":10692},{\"adult\":false,\"backdrop_path\":\"/zNnjHLDtV8Ti3aworltaeaLMov4.jpg\",\"genre_ids\":[80,18,53],\"id\":242,\"original_language\":\"en\",\"original_title\":\"The Godfather Part III\",\"overview\":\"In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.\",\"popularity\":59.26,\"poster_path\":\"/lm3pQ2QoQ16pextRsmnUbG2onES.jpg\",\"release_date\":\"1990-12-25\",\"title\":\"The Godfather Part III\",\"video\":false,\"vote_average\":7.421,\"vote_count\":5378},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[80,35],\"id\":1050474,\"original_language\":\"en\",\"original_title\":\"The Godfather\",\"overview\":\"An angry comedy set in the world of really organized crime.\",\"popularity\":0.651,\"poster_path\":\"/hGiNkRgXTkF4C6WplyPrglEKtd0.jpg\",\"release_date\":\"2023-01-28\",\"title\":\"The Godfather\",\"video\":false,\"vote_average\":0.0,\"vote_count\":0},{\"adult\":false,\"backdrop_path\":\"/fE0Xmb0GaAm1R5NkrMuPezjoGwS.jpg\",\"genre_ids\":[28,35,53],\"id\":70829,\"original_language\":\"ko\",\"original_title\":\"The Last Godfather\",\"overview\":\"Young-goo the son of mafia boss Don Carini, is too foolish to be part of the mafia elite. One day, Young-goo comes to his father and is trained by Tony V to be his father's successor. A few days later, Young-goo accidentally rescues Nancy, the only daughter of Don Bonfante, the boss of a rival mafia family. But Vinnie, an under-boss of the Bonfante family kidnapped her and fabricates that Young-goo has taken her. Vinnie's behavior provokes an armed conflict between the two families.\",\"popularity\":2.694,\"poster_path\":\"/zLcKGxKn8qgrGaUZAWZY3Nvi5fr.jpg\",\"release_date\":\"2010-12-29\",\"title\":\"The Last Godfather\",\"video\":false,\"vote_average\":4.7,\"vote_count\":13},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28,80,18],\"id\":79026,\"original_language\":\"en\",\"original_title\":\"El padrino\",\"overview\":\"In the streets of East Los Angeles, Manny is a formidable drug dealer. Impressed by his extravagant lifestyle and prowess, his young son, Kilo, yearns to follow in his footsteps. Kilo resolves to learn how to prosper in the drug world, and his new life as a dealer begins. In a world where a man wants everything, he may end up with nothing.\",\"popularity\":9.14,\"poster_path\":\"/10J7EQ8WvMYku8lcZrLewV2Ko4I.jpg\",\"release_date\":\"2004-09-27\",\"title\":\"El padrino: The Latin Godfather\",\"video\":false,\"vote_average\":6.8,\"vote_count\":31},{\"adult\":false,\"backdrop_path\":\"/tYjyk4Ij7CwVOn2ovcXdRYffR9k.jpg\",\"genre_ids\":[80,18],\"id\":364150,\"original_language\":\"en\",\"original_title\":\"The Godfather Trilogy: 1901-1980\",\"overview\":\"The multigenerational saga of the rise and fall of the Corleone crime family. Story is told in chronological order, and numerous scenes that were deleted from each film have been restored.\",\"popularity\":10.222,\"poster_path\":\"/rwEP0RwpF2mKGRbs7jerdC4aeMB.jpg\",\"release_date\":\"1992-10-17\",\"title\":\"The Godfather Trilogy: 1901-1980\",\"video\":true,\"vote_average\":8.9,\"vote_count\":140},{\"adult\":false,\"backdrop_path\":\"/3otb50i2hzoToonuOaKn1ZQws9u.jpg\",\"genre_ids\":[99,10402],\"id\":606215,\"original_language\":\"en\",\"original_title\":\"The Black Godfather\",\"overview\":\"Follows the life of Clarence Avant, the ultimate, uncensored mentor and behind-the-scenes rainmaker in music, film, TV and politics.\",\"popularity\":5.091,\"poster_path\":\"/3BQArnXPwM5nHeS1tlGKLY7eapP.jpg\",\"release_date\":\"2019-06-07\",\"title\":\"The Black Godfather\",\"video\":false,\"vote_average\":6.8,\"vote_count\":26},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":294636,\"original_language\":\"en\",\"original_title\":\"The Godfather Legacy\",\"overview\":\"THE GODFATHER LEGACY goes deep inside Francis Ford Coppola's epic saga about the Corleone crime family and reveals how the Academy Award-winning film and its sequels became one of the most acclaimed franchises in Hollywood history. Featuring iconic scenes from all three films, never before seen home movies and insightful interviews with filmmakers (Francis Ford Coppola, All Ruddy and Peter Bart), actors (Al Pacino, James Caan, Talia Shire, Joe Mantegna, et al.), law enforcement officials and even former Mafia members. This feature length documentary illustrates why The Godfather trilogy continues to entertain and fascinate audiences and how it continues to impact the way society views everything from capitalism to crime.\",\"popularity\":3.479,\"poster_path\":\"/9y9w5prvVjBtwWl9TNtvThL0NNi.jpg\",\"release_date\":\"2012-07-12\",\"title\":\"The Godfather Legacy\",\"video\":false,\"vote_average\":7.0,\"vote_count\":15},{\"adult\":false,\"backdrop_path\":\"/c1vrJxyuKhswMm9IbRJJhsFXm0I.jpg\",\"genre_ids\":[99],\"id\":56205,\"original_language\":\"en\",\"original_title\":\"'The Godfather' Family: A Look Inside\",\"overview\":\"A documentary on the making of the three Godfather films, with interviews and recollections from the film makers and cast. This feature also includes the original screen tests of some of the actors for \\\"The Godfather\\\" film, and some candid moments on the set of \\\"The Godfather: Part III.\\\"\",\"popularity\":5.321,\"poster_path\":\"/2Ex3ynNc95pxkeLmwvGeYVWjKta.jpg\",\"release_date\":\"1990-07-12\",\"title\":\"'The Godfather' Family: A Look Inside\",\"video\":false,\"vote_average\":7.743,\"vote_count\":35},{\"adult\":false,\"backdrop_path\":\"/pS8xPQ1HFsiiKfamKcLoh3yYVNJ.jpg\",\"genre_ids\":[99,10402],\"id\":485918,\"original_language\":\"en\",\"original_title\":\"The Godfathers of Hardcore\",\"overview\":\"Documentary following Roger Miret and Vinnie Stigma of the band, Agnostic Front who played a key role in defining, shaping and establishing the sound and cultural code of conduct for the still-thriving movement. Unlike the dozens of bands that have come and gone, Agnostic Front is still going strong.\",\"popularity\":3.14,\"poster_path\":\"/xs0xxDawafML2seVqby8K0qWeRz.jpg\",\"release_date\":\"2018-12-12\",\"title\":\"The Godfathers of Hardcore\",\"video\":false,\"vote_average\":6.5,\"vote_count\":10},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[35],\"id\":260889,\"original_language\":\"it\",\"original_title\":\"L'altra faccia del padrino\",\"overview\":\"The Godfather Don Vito Monreale knows, by chance, the Italian-American singer Nick Bouillon. Since the two are alike, Don Vito decided to exploit this similarity in his favour.\",\"popularity\":2.136,\"poster_path\":\"/yFI6AyrblDaTkJu3iYpZhdSp8wx.jpg\",\"release_date\":\"1973-05-03\",\"title\":\"The Funny Face of the Godfather\",\"video\":false,\"vote_average\":2.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/awi1iAqxSDDrC7eF7xEY0uQCgsB.jpg\",\"genre_ids\":[28,80,53],\"id\":80755,\"original_language\":\"en\",\"original_title\":\"The Black Godfather\",\"overview\":\"The heroes in The Black Godfather are members of an African-American criminal organization. Like Brando in The Godfather, they're not averse to robbery and murder, but they do draw the line at narcotics. When the Mafia infiltrates the 'hood with dangerous drugs, the Black Godfather (Rod Perry) orders his minions to put an end to this perfidy.\",\"popularity\":2.621,\"poster_path\":\"/4B7wQFfKlcAS3QFL95iSnYcdlfJ.jpg\",\"release_date\":\"1974-09-03\",\"title\":\"The Black Godfather\",\"video\":false,\"vote_average\":5.0,\"vote_count\":9},{\"adult\":false,\"backdrop_path\":\"/j4wwKS0aokfGe7QDYqU2k6744hi.jpg\",\"genre_ids\":[99,27],\"id\":58862,\"original_language\":\"en\",\"original_title\":\"Herschell Gordon Lewis: The Godfather of Gore\",\"overview\":\"Take an outrageous ride through this wild world of exploitation films with this thoroughly entertaining documentary, HERSCHELL GORDON LEWIS – THE GODFATHER OF GORE! Featuring cult director John Waters, Drive-In Movie Critic Joe Bob Briggs, Herschell Gordon Lewis himself and a “cast of thousands,” you’ll witness the innocent bare-naked era of Nudie-Cuties before Lewis schocked the world with “Blood Feast,” the first ever gore film!\",\"popularity\":3.137,\"poster_path\":\"/mzwiMxr0a5xOe3R8d5c2DlkCYzM.jpg\",\"release_date\":\"2010-06-01\",\"title\":\"Herschell Gordon Lewis: The Godfather of Gore\",\"video\":false,\"vote_average\":6.2,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99,36],\"id\":454229,\"original_language\":\"en\",\"original_title\":\"The Medici: Godfathers of the Renaissance\",\"overview\":\"From a small Italian community in 15th-century Florence, the Medici family would rise to rule Europe in many ways. Using charm, patronage, skill, duplicity and ruthlessness, they would amass unparalleled wealth and unprecedented power. They would also ignite the most important cultural and artistic revolution in Western history -- the European Renaissance. But the forces of change the Medici helped unleash would one day topple their ordered world.\",\"popularity\":1.446,\"poster_path\":\"/1d9JXkKlFS9c1mxdENuGlogWnUD.jpg\",\"release_date\":\"2004-02-04\",\"title\":\"The Medici: Godfathers of the Renaissance\",\"video\":false,\"vote_average\":8.0,\"vote_count\":4},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[80,28],\"id\":90020,\"original_language\":\"it\",\"original_title\":\"La mano lunga del padrino\",\"overview\":\"A  treacherous low-level mafioso greedily rips off a shipment of arms from his powerful godfather and tries to sell them to an especially dubious group of Arabs\",\"popularity\":1.375,\"poster_path\":\"/eRwiJc2cFguRcx3sxNOIh63gCfJ.jpg\",\"release_date\":\"1972-08-11\",\"title\":\"The Long Arm of the Godfather\",\"video\":false,\"vote_average\":0.0,\"vote_count\":0},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[53,28,80,18],\"id\":260892,\"original_language\":\"it\",\"original_title\":\"L'amico del padrino\",\"overview\":\"Richard Harrison is the Mob hit man who finds friendships can get you into trouble when he meets an old buddy who turns out to be part of an opposing family!\",\"popularity\":1.206,\"poster_path\":\"/cPii9mxWJpcvwN72TlNLEGIFWVo.jpg\",\"release_date\":\"1972-12-24\",\"title\":\"The Godfather's Friend\",\"video\":false,\"vote_average\":2.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/mDMCET9Ens5ANvZAWRpluBsMAtS.jpg\",\"genre_ids\":[80,18],\"id\":970689,\"original_language\":\"en\",\"original_title\":\"The Godfather 1901–1959: The Complete Epic\",\"overview\":\"The Godfather 1901–1959: The Complete Epic is a reduced, 386-minute version of the 1977 television miniseries, \\\"Mario Puzo's The Godfather: The Complete Novel for Television,\\\" released to video in 1981. Unlike the miniseries, which was presented in four segments (each with opening and closing credits), the Epic is presented as a single segment. In January 2016, HBO aired the Epic in its uncut and uncensored format, later making it available on its streaming platforms. The HBO showing contained most of the known deleted scenes, thereby lengthening the runtime of the Epic from its video release to 423 minutes.\",\"popularity\":1.254,\"poster_path\":\"/DGCsKaQgcp4QkX7ulL1BMbkIkr.jpg\",\"release_date\":\"1981-03-24\",\"title\":\"The Godfather 1901–1959: The Complete Epic\",\"video\":true,\"vote_average\":10.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":526803,\"original_language\":\"en\",\"original_title\":\"Fred: The Godfather of British Crime\",\"overview\":\"This is an examination into the psyche of former London gangster Freddie Foreman: 85 years old, allegedly responsible for multiple murders, and nearing the end of his life. Fred is the only gangster who lived through the turbulent history of the British underworld and survived to tell the tale.\",\"popularity\":1.946,\"poster_path\":\"/eNIE8eB38KAjZuye58wXFDJP79n.jpg\",\"release_date\":\"2018-04-20\",\"title\":\"Fred: The Godfather of British Crime\",\"video\":false,\"vote_average\":7.2,\"vote_count\":6},{\"adult\":false,\"backdrop_path\":\"/7qKkAKYhnIqZMQ9hWVUZ1zV6kLb.jpg\",\"genre_ids\":[80],\"id\":260872,\"original_language\":\"it\",\"original_title\":\"I contrabbandieri di Santa Lucia\",\"overview\":\"A revolution in Iran halts a heroin shipment, but an alliance of crime families is set on getting it to the US.  They decide to run the drug through an unsuspecting network of good-natured, local smugglers in Naples, while an international anti-narcotics agent rushes to shut their operation down.  Betrayals and divided loyalties lead to a  final, bloody confrontation in America.\",\"popularity\":2.693,\"poster_path\":\"/n8ZKrhC2zJCsOMPel882EPMDZyj.jpg\",\"release_date\":\"1979-08-24\",\"title\":\"The New Godfathers\",\"video\":false,\"vote_average\":6.5,\"vote_count\":3}],\"total_pages\":5,\"total_results\":88}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:27:33 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=batman",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 16:13:27 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "1c52f154e97603f7925abead3a072b11"
+          ],
+          "X-Memc-Age": [
+            "16647"
+          ],
+          "X-Memc-Expires": [
+            "4953"
+          ],
+          "Etag": [
+            "W/\"4efc8ba03e8f24a0b8489d4c51787357\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 0ecc9d4faf14441bafb84971a4117abc.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "AVNx9Pa8Kfwz8Q1SkMKPQchQnEKArqK_Ch3QfdL8qcEHJamLwYsEhg=="
+          ],
+          "Age": [
+            "18846"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":\"/2va32apQP97gvUxaMnL5wYt4CRB.jpg\",\"genre_ids\":[14,28,80],\"id\":268,\"original_language\":\"en\",\"original_title\":\"Batman\",\"overview\":\"Batman must face his most ruthless nemesis when a deformed madman calling himself \\\"The Joker\\\" seizes control of Gotham's criminal underworld.\",\"popularity\":43.4,\"poster_path\":\"/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg\",\"release_date\":\"1989-06-23\",\"title\":\"Batman\",\"video\":false,\"vote_average\":7.214,\"vote_count\":6816},{\"adult\":false,\"backdrop_path\":\"/bxxupqG6TBLKC60M6L8iOvbQEr6.jpg\",\"genre_ids\":[28,35,80],\"id\":2661,\"original_language\":\"en\",\"original_title\":\"Batman\",\"overview\":\"The Dynamic Duo faces four super-villains who plan to hold the world for ransom with the help of a secret invention that instantly dehydrates people.\",\"popularity\":20.207,\"poster_path\":\"/zzoPxWHnPa0eyfkMLgwbNvdEcVF.jpg\",\"release_date\":\"1966-07-30\",\"title\":\"Batman\",\"video\":false,\"vote_average\":6.294,\"vote_count\":723},{\"adult\":false,\"backdrop_path\":\"/xEG5iP1qZCiDt4BefSpLy1d54zE.jpg\",\"genre_ids\":[28,12,80,878,53,10752],\"id\":125249,\"original_language\":\"en\",\"original_title\":\"Batman\",\"overview\":\"Japanese master spy Daka operates a covert espionage-sabotage organization located in Gotham City's now-deserted Little Tokyo, which turns American scientists into pliable zombies. The great crime-fighters Batman and Robin, with the help of their allies, are in pursuit.\",\"popularity\":6.236,\"poster_path\":\"/6XYL5JRHxaLLd0ZwsBugaAuGHTa.jpg\",\"release_date\":\"1943-07-16\",\"title\":\"Batman\",\"video\":false,\"vote_average\":6.6,\"vote_count\":42},{\"adult\":false,\"backdrop_path\":\"/7eccX0xay9pDj6ZQvU4cu3whw18.jpg\",\"genre_ids\":[16,9648,14,28,27],\"id\":1003579,\"original_language\":\"en\",\"original_title\":\"Batman: The Doom That Came to Gotham\",\"overview\":\"Explorer Bruce Wayne accidentally unleashes an ancient evil, and returns to Gotham after being away for two decades. There, Batman battles Lovecraftian supernatural forces and encounters allies and enemies such as Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face and James Gordon.\",\"popularity\":1012.789,\"poster_path\":\"/hrATQE8ScQceohwInaMluluNEaf.jpg\",\"release_date\":\"2023-03-10\",\"title\":\"Batman: The Doom That Came to Gotham\",\"video\":false,\"vote_average\":6.734,\"vote_count\":32},{\"adult\":false,\"backdrop_path\":\"/b0PlSFdDwbyK0cf5RxwDpaOJQvQ.jpg\",\"genre_ids\":[80,9648,53],\"id\":414906,\"original_language\":\"en\",\"original_title\":\"The Batman\",\"overview\":\"In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.\",\"popularity\":231.724,\"poster_path\":\"/74xTEgt7R36Fpooo50r9T25onhq.jpg\",\"release_date\":\"2022-03-01\",\"title\":\"The Batman\",\"video\":false,\"vote_average\":7.71,\"vote_count\":7700},{\"adult\":false,\"backdrop_path\":\"/8VSaa8ZCy43zm7aRzsyCnKOfarm.jpg\",\"genre_ids\":[16,28,878],\"id\":886396,\"original_language\":\"en\",\"original_title\":\"Batman and Superman: Battle of the Super Sons\",\"overview\":\"After discovering he has powers, 11-year-old Jonathan Kent and assassin-turned-Boy-Wonder Damian Wayne must join forces to rescue their fathers (Superman \\u0026 Batman) and save the planet from the malevolent alien force known as Starro.\",\"popularity\":81.593,\"poster_path\":\"/mvffaexT5kA3chOnGxwBSlRoshh.jpg\",\"release_date\":\"2022-10-18\",\"title\":\"Batman and Superman: Battle of the Super Sons\",\"video\":false,\"vote_average\":7.9,\"vote_count\":186},{\"adult\":false,\"backdrop_path\":\"/5fX1oSGuYdKgwWmUTAN5MNSQGzr.jpg\",\"genre_ids\":[28,12,14],\"id\":209112,\"original_language\":\"en\",\"original_title\":\"Batman v Superman: Dawn of Justice\",\"overview\":\"Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before.\",\"popularity\":70.436,\"poster_path\":\"/5UsK3grJvtQrtzEgqNlDljJW96w.jpg\",\"release_date\":\"2016-03-23\",\"title\":\"Batman v Superman: Dawn of Justice\",\"video\":false,\"vote_average\":5.941,\"vote_count\":16614},{\"adult\":false,\"backdrop_path\":\"/8pOUmMgVnl1tYNtTRTE5TeyGBGD.jpg\",\"genre_ids\":[16,28,878],\"id\":485942,\"original_language\":\"ja\",\"original_title\":\"ニンジャバットマン\",\"overview\":\"Batman, along with many of his allies and adversaries, finds himself transported to feudal Japan by Gorilla Grodd's time displacement machine.\",\"popularity\":18.22,\"poster_path\":\"/5xSB0Npkc9Fd9kahKBsq9P4Cdzp.jpg\",\"release_date\":\"2018-03-24\",\"title\":\"Batman Ninja\",\"video\":false,\"vote_average\":5.805,\"vote_count\":840},{\"adult\":false,\"backdrop_path\":\"/ew5FcYiRhTYNJAkxoVPMNlCOdVn.jpg\",\"genre_ids\":[28,80,18],\"id\":272,\"original_language\":\"en\",\"original_title\":\"Batman Begins\",\"overview\":\"Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.\",\"popularity\":54.047,\"poster_path\":\"/8RW2runSEc34IwKN2D1aPcJd2UL.jpg\",\"release_date\":\"2005-06-10\",\"title\":\"Batman Begins\",\"video\":false,\"vote_average\":7.695,\"vote_count\":18850},{\"adult\":false,\"backdrop_path\":\"/3WP0RObZ2t7ShHfqQpKPljF9B22.jpg\",\"genre_ids\":[28,14],\"id\":364,\"original_language\":\"en\",\"original_title\":\"Batman Returns\",\"overview\":\"While Batman deals with a deformed man calling himself the Penguin, an employee of a corrupt businessman transforms into the Catwoman.\",\"popularity\":36.087,\"poster_path\":\"/jKBjeXM7iBBV9UkUcOXx3m7FSHY.jpg\",\"release_date\":\"1992-06-19\",\"title\":\"Batman Returns\",\"video\":false,\"vote_average\":6.9,\"vote_count\":5702},{\"adult\":false,\"backdrop_path\":\"/eoMushgujydxFplE9yPZ54lwOvo.jpg\",\"genre_ids\":[16,28,35,10751],\"id\":324849,\"original_language\":\"en\",\"original_title\":\"The Lego Batman Movie\",\"overview\":\"A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan who wishes to become his sidekick.\",\"popularity\":35.062,\"poster_path\":\"/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg\",\"release_date\":\"2017-02-08\",\"title\":\"The Lego Batman Movie\",\"video\":false,\"vote_average\":7.2,\"vote_count\":4384},{\"adult\":false,\"backdrop_path\":\"/kU7ZiyeUwcpTkYj3UcxSqGdZmxY.jpg\",\"genre_ids\":[16,28],\"id\":618353,\"original_language\":\"en\",\"original_title\":\"Batman: Death in the Family\",\"overview\":\"Tragedy strikes the Batman's life again when Robin Jason Todd tracks down his birth mother only to run afoul of the Joker. An adaptation of the 1988 comic book storyline of the same name.\",\"popularity\":35.059,\"poster_path\":\"/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg\",\"release_date\":\"2020-10-13\",\"title\":\"Batman: Death in the Family\",\"video\":false,\"vote_average\":7.196,\"vote_count\":365},{\"adult\":false,\"backdrop_path\":\"/ymX3MnaxAO3jJ6EQnuNBRWJYiPC.jpg\",\"genre_ids\":[16,9648,28,80],\"id\":736074,\"original_language\":\"en\",\"original_title\":\"Batman: The Long Halloween, Part Two\",\"overview\":\"As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones.\",\"popularity\":30.935,\"poster_path\":\"/f46QMSo2wAVY1ywrNc9yZv0rkNy.jpg\",\"release_date\":\"2021-07-26\",\"title\":\"Batman: The Long Halloween, Part Two\",\"video\":false,\"vote_average\":7.5,\"vote_count\":407},{\"adult\":false,\"backdrop_path\":\"/uS9apevOgs2fuYghf9szOoK1u63.jpg\",\"genre_ids\":[16,9648,28,80],\"id\":736073,\"original_language\":\"en\",\"original_title\":\"Batman: The Long Halloween, Part One\",\"overview\":\"Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent.\",\"popularity\":25.728,\"poster_path\":\"/fvaB0jrzFXq07bUpox03k6qOAJu.jpg\",\"release_date\":\"2021-06-21\",\"title\":\"Batman: The Long Halloween, Part One\",\"video\":false,\"vote_average\":7.5,\"vote_count\":487},{\"adult\":false,\"backdrop_path\":\"/m4UT6yKXhXgbzxpeV35L4jLoJoP.jpg\",\"genre_ids\":[28,878,12,35],\"id\":415,\"original_language\":\"en\",\"original_title\":\"Batman \\u0026 Robin\",\"overview\":\"Batman and Robin deal with relationship issues while preventing Mr. Freeze and Poison Ivy from attacking Gotham City.\",\"popularity\":33.6,\"poster_path\":\"/cGRDufDDSrFrv7VI4YnmWnslne0.jpg\",\"release_date\":\"1997-06-20\",\"title\":\"Batman \\u0026 Robin\",\"video\":false,\"vote_average\":4.3,\"vote_count\":4449},{\"adult\":false,\"backdrop_path\":\"/9Eh5xzWTpJeZM1FGCblWKZ8GTpw.jpg\",\"genre_ids\":[878,28,16,9648],\"id\":142061,\"original_language\":\"en\",\"original_title\":\"Batman: The Dark Knight Returns, Part 2\",\"overview\":\"Batman has stopped the reign of terror that The Mutants had cast upon his city.  Now an old foe wants a reunion and the government wants The Man of Steel to put a stop to Batman.\",\"popularity\":29.738,\"poster_path\":\"/arEZYd6uMOFTILne9Ux0A8qctMe.jpg\",\"release_date\":\"2013-01-03\",\"title\":\"Batman: The Dark Knight Returns, Part 2\",\"video\":false,\"vote_average\":7.971,\"vote_count\":1253},{\"adult\":false,\"backdrop_path\":\"/snlu32RmjldF9b068UURJg8sQtn.jpg\",\"genre_ids\":[28,80,14],\"id\":414,\"original_language\":\"en\",\"original_title\":\"Batman Forever\",\"overview\":\"Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat.\",\"popularity\":29.37,\"poster_path\":\"/mzzNBVwTiiY94xAXDMWJpNPW2US.jpg\",\"release_date\":\"1995-06-16\",\"title\":\"Batman Forever\",\"video\":false,\"vote_average\":5.4,\"vote_count\":4592},{\"adult\":false,\"backdrop_path\":\"/scNssnn5PN99fBODNzxF5qN4Iw8.jpg\",\"genre_ids\":[16,10751,28,878],\"id\":16234,\"original_language\":\"en\",\"original_title\":\"Batman Beyond: Return of the Joker\",\"overview\":\"The Joker is back with a vengeance, and Gotham's newest Dark Knight, Terry McGinnis, needs answers as he stands alone to face Gotham's most infamous Clown Prince of Crime.\",\"popularity\":22.773,\"poster_path\":\"/7RlBs0An83fqAuKfwH5gKMcqgMc.jpg\",\"release_date\":\"2000-12-12\",\"title\":\"Batman Beyond: Return of the Joker\",\"video\":false,\"vote_average\":7.312,\"vote_count\":979},{\"adult\":false,\"backdrop_path\":\"/1YaG52CwGY3pKh76OBlwX0ymncg.jpg\",\"genre_ids\":[878,28,16,9648],\"id\":123025,\"original_language\":\"en\",\"original_title\":\"Batman: The Dark Knight Returns, Part 1\",\"overview\":\"Batman has not been seen for ten years. A new breed of criminal ravages Gotham City, forcing 55-year-old Bruce Wayne back into the cape and cowl. But, does he still have what it takes to fight crime in a new era?\",\"popularity\":27.092,\"poster_path\":\"/kkjTbwV1Xnj8wBL52PjOcXzTbnb.jpg\",\"release_date\":\"2012-08-21\",\"title\":\"Batman: The Dark Knight Returns, Part 1\",\"video\":false,\"vote_average\":7.745,\"vote_count\":1367},{\"adult\":false,\"backdrop_path\":\"/jvRewPpawHAfBW38EzHoFdTVEez.jpg\",\"genre_ids\":[16,28,12,80,14],\"id\":732450,\"original_language\":\"en\",\"original_title\":\"Batman: Soul of the Dragon\",\"overview\":\"Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva.\",\"popularity\":22.711,\"poster_path\":\"/uDhnTtSxU5a8DtZdbbin3aZmkmU.jpg\",\"release_date\":\"2021-01-12\",\"title\":\"Batman: Soul of the Dragon\",\"video\":false,\"vote_average\":6.938,\"vote_count\":282}],\"total_pages\":8,\"total_results\":147}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:27:33 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=fight",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 13:43:05 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "7adb1aa0572b3e46e5895e476da586d4"
+          ],
+          "X-Memc-Age": [
+            "12598"
+          ],
+          "X-Memc-Expires": [
+            "9002"
+          ],
+          "Etag": [
+            "W/\"0b21f8fc5d208099c49a305f50649b11\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 f6992241dd15e99fe1ce21d807856f16.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "kO01adcyb9wsnIdBd0UwTdTF-mbDnujn-wCwsrIUo5baTC8YpeRtDw=="
+          ],
+          "Age": [
+            "27868"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":757019,\"original_language\":\"en\",\"original_title\":\"Fight\",\"overview\":\"An improvised hour-long fight between Brigid Berlin \\u0026 Charles Rydell. Produced by Andy Warhol.\",\"popularity\":0.999,\"poster_path\":\"/sKLsn8KckO0uP1jaQR7jsmGdkNj.jpg\",\"release_date\":\"1973-01-01\",\"title\":\"Fight\",\"video\":false,\"vote_average\":6.35,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[16,28,14],\"id\":227326,\"original_language\":\"ja\",\"original_title\":\"FIGHT!!\",\"overview\":\"Yonosuke Hikura appears to be an ordinary high school student. Yet he has inherited the important role of protecting the harmony between Heaven and Earth. With the help of the magical sword Chitentai, and Tsukinojo Inbe, he courageously battles the demons, sending them back to the Earth World, from which they have escaped.\",\"popularity\":3.497,\"poster_path\":\"/2ctuOltpgm2IXHZ5tbTstFwQ4tT.jpg\",\"release_date\":\"1993-06-17\",\"title\":\"Fight!! Spirit of the Sword\",\"video\":false,\"vote_average\":6.222,\"vote_count\":18},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[16],\"id\":723745,\"original_language\":\"en\",\"original_title\":\"Fight!\",\"overview\":\"Two friends fighting dirty\",\"popularity\":0.755,\"poster_path\":\"/1KpQ8Rhl1T3rzypivqsOZusXQ4g.jpg\",\"release_date\":\"2014-09-17\",\"title\":\"Fight!\",\"video\":false,\"vote_average\":5.875,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":\"/sixB73DmQ5HxgBuHQWpELSNUnTN.jpg\",\"genre_ids\":[16,28,35],\"id\":45287,\"original_language\":\"ja\",\"original_title\":\"はじめの一歩 -Champion Road-\",\"overview\":\"Makunouchi Ippo is the new Featherweight champion of Japan and is now ready for his first title defense. His opponent, the former Jr. Featherweight champion and a medical student, Sanada Kazuki. In addition to this feud, Sanada is being coached by Kamogawa's former rival, Hama Dankichi. What makes things worse is that Sanada works at the same hospital where Kumi is a nurse at and everybody at the hospital wants Sanada to win. Not only does Ippo have to defend his title, he has to reclaim his love.\",\"popularity\":25.566,\"poster_path\":\"/cI56CuhEYcv3Myrm05SmQfNDrnZ.jpg\",\"release_date\":\"2003-06-25\",\"title\":\"Fighting Spirit: Champion Road\",\"video\":false,\"vote_average\":6.719,\"vote_count\":48},{\"adult\":false,\"backdrop_path\":\"/al1DWKnt5kcSeV9onSJTdpqtRmq.jpg\",\"genre_ids\":[16,35,18,28],\"id\":45288,\"original_language\":\"ja\",\"original_title\":\"Espíritu de lucha OVA: Mashiba vs Kimura\",\"overview\":\"Kimura finally has his championship match. It takes place at the annual champion carnival. But now he must face the intense champion, Mashiba for the Junior Lightweight championship.\",\"popularity\":27.297,\"poster_path\":\"/9UNq2kogJ0fNA6TfFJdJt0PXOwV.jpg\",\"release_date\":\"2003-09-05\",\"title\":\"Fighting Spirit - Mashiba vs. Kimura\",\"video\":false,\"vote_average\":6.0,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":\"/hZkgoQYus5vegHoetLkCJzb17zJ.jpg\",\"genre_ids\":[18,53,35],\"id\":550,\"original_language\":\"en\",\"original_title\":\"Fight Club\",\"overview\":\"A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \\\"fight clubs\\\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.\",\"popularity\":81.106,\"poster_path\":\"/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg\",\"release_date\":\"1999-10-15\",\"title\":\"Fight Club\",\"video\":false,\"vote_average\":8.432,\"vote_count\":26059},{\"adult\":false,\"backdrop_path\":\"/reMt35KtqTTIy0mhcKA1PfuruDq.jpg\",\"genre_ids\":[16,28],\"id\":12613,\"original_language\":\"ja\",\"original_title\":\"ストリートファイター II MOVIE\",\"overview\":\"Bison, the ruthless leader of the international terrorist organization Shadowlaw, has been desperately searching for the greatest fighter on the planet for years. He finds it in Ryu, a young wanderer who never stays in one place long enough for Bison to find him. He does, however, get a fix on Ken Masters, an American martial arts champion who studied with Ryu as a child under the same master. Meanwhile, Major Guile of the United States Army is forced to team up with Chun Li from China in hopes of apprehending Bison and putting a stop his international ring of crime.\",\"popularity\":22.472,\"poster_path\":\"/dZ1rqmE4eIhPbUCr7sn2Pw2wwGW.jpg\",\"release_date\":\"1994-08-06\",\"title\":\"Street Fighter II: The Animated Movie\",\"video\":false,\"vote_average\":6.905,\"vote_count\":194},{\"adult\":false,\"backdrop_path\":\"/1VqE5z4VIOcNcajJuHLk4fDkY9G.jpg\",\"genre_ids\":[28,27],\"id\":289732,\"original_language\":\"zh\",\"original_title\":\"屍城\",\"overview\":\"It's the end of the century at a corner of the city in a building riddled with crime - Everyone in the building has turned into zombies. After Jenny's boyfriend is killed in a zombie attack, she faces the challenge of surviving in the face of adversity. In order to stay alive, she struggles with Andy to flee danger.\",\"popularity\":12.897,\"poster_path\":\"/u8u3KVq0qfJYmNDsaTVOXy4So6f.jpg\",\"release_date\":\"2014-10-23\",\"title\":\"Zombie Fight Club\",\"video\":false,\"vote_average\":4.543,\"vote_count\":47},{\"adult\":false,\"backdrop_path\":\"/qo0QMHbtINR4JAux50G6p5bLiPG.jpg\",\"genre_ids\":[16,28],\"id\":68449,\"original_language\":\"ja\",\"original_title\":\"グラップラー刃牙\",\"overview\":\"His name is Baki Hanma. No one knows where he came from or where he learned his unique fighting style.  When it comes to Karate, Baki Hanma is just plain GOOD. He can defeat an opponent with a single blow and he's taking the Karate Championship by storm. In a prestigious match, he defeats competitor after competitor even though he's totally unknown and barely even ranked.  But now he's in for the fight of his life and he may have just met his match. Anything goes and his opponent can rip his nerves out -- literally. If he wins, he's the BEST. If he loses... he's DEAD.\",\"popularity\":13.803,\"poster_path\":\"/p2vheIGpvG4qvUfXmKvJGy70FLp.jpg\",\"release_date\":\"1994-08-21\",\"title\":\"Grappler Baki: The Ultimate Fighter\",\"video\":false,\"vote_average\":6.576,\"vote_count\":34},{\"adult\":false,\"backdrop_path\":\"/2jlmBNJrsZnKoBWUtUVkil9iyXO.jpg\",\"genre_ids\":[16,35,28,10749],\"id\":37024,\"original_language\":\"ja\",\"original_title\":\"らんま½ 中国寝崑崙大決戦! 掟やぶりの激闘篇!\",\"overview\":\"When Prince Kirin of the 7 Lucky Gods shows up at the Tendo dojo looking for his bride-to-be, guess who's accidentally holding the scroll that signifies his future mate? Why, Akane, of course, and the rest of the Ranma crew is forced to take a boat to China in order to save her from the horrors of marriage and a diet of pickled vegetables.\",\"popularity\":14.269,\"poster_path\":\"/2dB9Cx6dXIwr7Hx1jhnADOzwrLC.jpg\",\"release_date\":\"1991-11-02\",\"title\":\"Ranma ½: The Movie — The Battle of Nekonron: The Fight to Break the Rules!\",\"video\":false,\"vote_average\":7.119,\"vote_count\":63},{\"adult\":false,\"backdrop_path\":\"/jznP87h6Mo5E8s5wNqoCCgcT86i.jpg\",\"genre_ids\":[35,80,9648,28],\"id\":66657,\"original_language\":\"cn\",\"original_title\":\"逃學威龍III之龍過雞年\",\"overview\":\"Chow Sing-Sing returns, only this time he doesn’t go back to school. Instead, Chow goes undercover as the husband of a wealthy socialite, which doesn’t sit well with his fiancée, who tries to convince Chow to quit working as undercover.\",\"popularity\":13.233,\"poster_path\":\"/gwq4z0x4ISsXI9Ra9EJhBIzyUTN.jpg\",\"release_date\":\"1993-01-14\",\"title\":\"Fight Back to School 3\",\"video\":false,\"vote_average\":6.479,\"vote_count\":47},{\"adult\":false,\"backdrop_path\":\"/qtr8bm14X04mcq8chjSJmNX5TJm.jpg\",\"genre_ids\":[28,16],\"id\":114372,\"original_language\":\"ja\",\"original_title\":\"真救世主伝説 北斗の拳 ラオウ伝 激闘の章\",\"overview\":\"A film adaptation of the Last Nanto General story arc from the manga, depicting the final battle between Kenshiro and Raoh that led to Kenshiro becoming the successor of Hokuto Shinken. Some events from the manga / anime have been excluded from the story (such as Raoh's fight with Juza) whereas others have been altered or expanded. New content featuring the final battle from Raoh's perspective have been added. This film serves as the follow-up to the first film in the series, which introduced Raoh and Reina's relationship, this time bringing it to a conclusion.\",\"popularity\":12.592,\"poster_path\":\"/eQI4zxgXVj5wb6YGGmwauSPdvIp.jpg\",\"release_date\":\"2007-04-28\",\"title\":\"Fist of the North Star: Legend of Raoh - Chapter of Fierce Fight\",\"video\":false,\"vote_average\":6.5,\"vote_count\":55},{\"adult\":false,\"backdrop_path\":\"/9XGU37CXAa68sPH3bqYkH16Rp4A.jpg\",\"genre_ids\":[28,12],\"id\":10798,\"original_language\":\"fr\",\"original_title\":\"Les Chevaliers du ciel\",\"overview\":\"Two air force pilots prevent a terrorist attack on the Bastille Day celebrations in Paris.\",\"popularity\":8.766,\"poster_path\":\"/hfu7GuPkfb2jnP3z5eGbQ5Vkjiw.jpg\",\"release_date\":\"2005-10-15\",\"title\":\"Sky Fighters\",\"video\":false,\"vote_average\":6.098,\"vote_count\":169},{\"adult\":false,\"backdrop_path\":\"/rJEoVgTCoxKbd843PzGRw14K4kk.jpg\",\"genre_ids\":[28,18],\"id\":21115,\"original_language\":\"ko\",\"original_title\":\"바람의 파이터\",\"overview\":\"An account of karate competitor Choi Yeung-Eui who went to Japan after World War II to become a fighter pilot but found a very different path instead. He changed his name to Masutatsu Oyama and went across the country, defeating martial artists one after another. This film concentrates on the period when he is still young, and developing his famous karate style, Kyokushin.\",\"popularity\":7.944,\"poster_path\":\"/tp4YiskOE7aciwfPomXuruGfxnY.jpg\",\"release_date\":\"2004-08-12\",\"title\":\"Fighter in the Wind\",\"video\":false,\"vote_average\":7.166,\"vote_count\":151},{\"adult\":false,\"backdrop_path\":\"/swWHSWHUjD1URCNhHkgiMBSi1eb.jpg\",\"genre_ids\":[28,18],\"id\":579221,\"original_language\":\"en\",\"original_title\":\"American Fighter\",\"overview\":\"A desperate teenager is forced into the dangerous world of underground fighting to win enough money to save his ailing mother. He finds out what he's made of in the face of these violent hungry competitors.\",\"popularity\":2.9,\"poster_path\":\"/z6AFVt8VIfolXaakluFLIcv6xCG.jpg\",\"release_date\":\"2021-04-29\",\"title\":\"American Fighter\",\"video\":false,\"vote_average\":6.344,\"vote_count\":16},{\"adult\":false,\"backdrop_path\":\"/mMP5otHjSzDYSMpOdqy8bO3Avks.jpg\",\"genre_ids\":[10751,16,12,35],\"id\":11625,\"original_language\":\"fr\",\"original_title\":\"Astérix et le coup du menhir\",\"overview\":\"Gaullish custom requires that a would-be chief must challenge and defeat another to become the leader of two tribes. Vitalstatistix is not perturbed because of Getafix's magic potion. Getafix, however has an accident and forgets how to make it. Then Vitalstatistix is suddenly challenged.\",\"popularity\":8.296,\"poster_path\":\"/rcFi9JvJMjwxp4lK66v4KueqglW.jpg\",\"release_date\":\"1989-10-04\",\"title\":\"Asterix and the Big Fight\",\"video\":false,\"vote_average\":6.4,\"vote_count\":519},{\"adult\":false,\"backdrop_path\":\"/fnvOXOispIr2cvRc8sGIlTQC2bQ.jpg\",\"genre_ids\":[878],\"id\":472685,\"original_language\":\"en\",\"original_title\":\"Fighting the Sky\",\"overview\":\"Strange other-worldly sounds are echoing around the world. A group of researchers, led by expert ufologist Lorraine Gardner, begin an expedition to track down the point of origin from which the sounds emerge. Yet as their journey deepens, they begin to discover more than they bargained for.\",\"popularity\":2.981,\"poster_path\":\"/ojL9FI7YBnN839lvK9I6e7XQdyz.jpg\",\"release_date\":\"2018-10-05\",\"title\":\"Fighting the Sky\",\"video\":false,\"vote_average\":6.0,\"vote_count\":18},{\"adult\":false,\"backdrop_path\":\"/tO2x1l6Mvg9M8n0qcFc8l17bBVw.jpg\",\"genre_ids\":[10749,28,18],\"id\":364080,\"original_language\":\"te\",\"original_title\":\"Bruce Lee - The Fighter\",\"overview\":\"When a stuntman is mistaken for a police officer, he begins fighting crime.\",\"popularity\":4.009,\"poster_path\":\"/qNYG0NLXcdZEW56pcOjrm0w6Vos.jpg\",\"release_date\":\"2015-10-16\",\"title\":\"Bruce Lee - The Fighter\",\"video\":false,\"vote_average\":6.154,\"vote_count\":26},{\"adult\":false,\"backdrop_path\":\"/k3YjcOIpvTvD3EEesHq0J5S79ls.jpg\",\"genre_ids\":[28,16],\"id\":17433,\"original_language\":\"ja\",\"original_title\":\"ストリートファイターZERO\",\"overview\":\"Increasingly disturbed by the dark energies building within him, Ryu is confronted by Shun, a boy claiming to be the brother he never knew. But before Ryu can consider whether Shun's timely appearance might be more than coincidental, Shun is kidnapped by Shadowlaw. To recover Shun, Ryu must undertake the ultimate journey of self-discovery and learn to control the power threatening to consume him.\",\"popularity\":7.58,\"poster_path\":\"/qVbT7Ypqj9xyWYfX0JbBu8Rv5BS.jpg\",\"release_date\":\"1999-12-22\",\"title\":\"Street Fighter Alpha: The Movie\",\"video\":false,\"vote_average\":6.5,\"vote_count\":71},{\"adult\":false,\"backdrop_path\":\"/amLGmoZO78zXWD7pScbAC5U8RzT.jpg\",\"genre_ids\":[10752,18],\"id\":248087,\"original_language\":\"ja\",\"original_title\":\"永遠の0\",\"overview\":\"A brother and sister learn their biological grandfather was a kamikaze pilot who died during World War II. During their research into his life, they get conflicting accounts from his former comrades about his character and how he joined his squadron.\",\"popularity\":4.768,\"poster_path\":\"/uTIo53KCbhCaWLZcLrtAjghYh2U.jpg\",\"release_date\":\"2013-12-20\",\"title\":\"The Fighter Pilot\",\"video\":false,\"vote_average\":6.912,\"vote_count\":51}],\"total_pages\":115,\"total_results\":2288}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:27:33 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=Fight%20Club",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 13:43:09 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "0cd14138ae78d0d35a8fdad6755d5f96"
+          ],
+          "X-Memc-Age": [
+            "4491"
+          ],
+          "X-Memc-Expires": [
+            "17109"
+          ],
+          "Etag": [
+            "W/\"eca04290172cc118fb16915cfff7cb1a\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 ac79b9352835edad28c9b0bc7dd7f8b0.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "qmiU15Ns0AaWYxBCTtTAI9XzItkNxQEvmtypsnn3qgEfWtimMWD8Gw=="
+          ],
+          "Age": [
+            "27869"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":\"/hZkgoQYus5vegHoetLkCJzb17zJ.jpg\",\"genre_ids\":[18,53,35],\"id\":550,\"original_language\":\"en\",\"original_title\":\"Fight Club\",\"overview\":\"A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \\\"fight clubs\\\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.\",\"popularity\":81.106,\"poster_path\":\"/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg\",\"release_date\":\"1999-10-15\",\"title\":\"Fight Club\",\"video\":false,\"vote_average\":8.432,\"vote_count\":26061},{\"adult\":false,\"backdrop_path\":\"/1VqE5z4VIOcNcajJuHLk4fDkY9G.jpg\",\"genre_ids\":[28,27],\"id\":289732,\"original_language\":\"zh\",\"original_title\":\"屍城\",\"overview\":\"It's the end of the century at a corner of the city in a building riddled with crime - Everyone in the building has turned into zombies. After Jenny's boyfriend is killed in a zombie attack, she faces the challenge of surviving in the face of adversity. In order to stay alive, she struggles with Andy to flee danger.\",\"popularity\":12.897,\"poster_path\":\"/u8u3KVq0qfJYmNDsaTVOXy4So6f.jpg\",\"release_date\":\"2014-10-23\",\"title\":\"Zombie Fight Club\",\"video\":false,\"vote_average\":4.543,\"vote_count\":47},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[35,18],\"id\":323667,\"original_language\":\"ru\",\"original_title\":\"Вставай и бейся\",\"overview\":\"Intertwined stories from the gladiator/athletes participating to the Calcio Storico Fiorentino yearly championship.\",\"popularity\":2.126,\"poster_path\":\"/rPCOC0myV3Vr7nYGMAOAOpUXgH3.jpg\",\"release_date\":\"2015-06-21\",\"title\":\"Florence Fight Club\",\"video\":false,\"vote_average\":5.722,\"vote_count\":9},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":973534,\"original_language\":\"ru\",\"original_title\":\"Бойцовский клуб (русская версия)\",\"overview\":\"The Russian version of the movie \\\"Fight Club\\\" is not just a Russian version of a well-known cult film, it is the result and of the hard work of two young men and their love for cinema, Alexander Kukhar (GOLOBON-TV) and Dmitry Ivanov (GRIZLIK FILM) , who are responsible for this project, from the development of its idea and the selection of the cast, to the organization of filming and financial support.  Filming lasted a whole year. Everyday work, constant trips, searching for suitable film sets and an exhausting schedule - all this was not in vain and resulted in an unusually amazing and original project - the film \\\"Fight Club\\\", created in the very heart of southern Russia, in the city of Krasnodar, by two young people\",\"popularity\":0.6,\"poster_path\":null,\"release_date\":\"\",\"title\":\"Fight Club (Russian version)\",\"video\":false,\"vote_average\":7.8,\"vote_count\":5},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":883656,\"original_language\":\"en\",\"original_title\":\"GCW Fight Club\",\"overview\":\"GCW presents Fight Club straight from the Showboat Hotel in Atlantic City, NJ! The event features the GCW World Championship match where Mox defends against Gage in a match that we have been waiting for during the last decade. Who will be the new GCW World Champion?\",\"popularity\":3.554,\"poster_path\":\"/a9RWdhRLyx3BqCjlwmZJHXyeMkR.jpg\",\"release_date\":\"2021-10-09\",\"title\":\"GCW Fight Club\",\"video\":true,\"vote_average\":6.0,\"vote_count\":4},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28],\"id\":347807,\"original_language\":\"hi\",\"original_title\":\"Fight Club: Members Only\",\"overview\":\"Four friends head off to Bombay and get involved in the mother and father of all gang wars.\",\"popularity\":2.821,\"poster_path\":\"/aXFmWfWYCCxQTkCn7K86RvDiMHZ.jpg\",\"release_date\":\"2006-02-17\",\"title\":\"Fight Club: Members Only\",\"video\":false,\"vote_average\":4.5,\"vote_count\":12},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":259016,\"original_language\":\"en\",\"original_title\":\"Insane Fight Club\",\"overview\":\"A group of friends have created a brand new subculture that is taking over the streets of Glasgow. They've established their very own fight club, but this is no ordinary wrestling event - this is brutal, riotous chaos. Fights don't always stay inside the ring, people are bounced off the side of buses and thrown off balconies in pubs. They now plan the biggest show of their lives. The stakes are high, will it bring them the fame and recognition they need to survive?\",\"popularity\":1.297,\"poster_path\":null,\"release_date\":\"2014-03-11\",\"title\":\"Insane Fight Club\",\"video\":false,\"vote_average\":4.333,\"vote_count\":3},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":151912,\"original_language\":\"en\",\"original_title\":\"Jurassic Fight Club\",\"overview\":\"Jurassic Fight Club, a paleontology-based miniseries that ran for 12 episodes, depicts how prehistoric beasts hunted their prey, dissecting these battles and uncovering a predatory world far more calculated and complex than originally thought. It was hosted by George Blasing, a self-taught paleontologist.\",\"popularity\":0.6,\"poster_path\":null,\"release_date\":\"2008-10-22\",\"title\":\"Jurassic Fight Club\",\"video\":false,\"vote_average\":7.4,\"vote_count\":5},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28,99,12],\"id\":104782,\"original_language\":\"it\",\"original_title\":\"Florence Fight Club\",\"overview\":\"Four men decided to enter in the oldest Fight Club of the History, The Florentine Football tournament. A father and son, a black guy, an old champion and outsider clerk will enter in an arena of the time to win their fears, to go over their limits, to be heroes for a day.\",\"popularity\":0.84,\"poster_path\":null,\"release_date\":\"2010-01-01\",\"title\":\"Florence Fight Club\",\"video\":false,\"vote_average\":7.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":322772,\"original_language\":\"en\",\"original_title\":\"Insane Fight Club II - This Time It’s Personal\",\"overview\":\"Insane Fight Club is back. This year the boys are taking their unique form of entertainment to England as they stage fight nights in Birmingham, Leeds, Liverpool and Newcastle.\",\"popularity\":2.982,\"poster_path\":null,\"release_date\":\"2015-01-21\",\"title\":\"Insane Fight Club II - This Time It’s Personal\",\"video\":false,\"vote_average\":7.0,\"vote_count\":2},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":532155,\"original_language\":\"en\",\"original_title\":\"Musangwe: Fight Club\",\"overview\":\"The first rule is that there are no rules. For the bare-knuckle combatants competing in Musangwe fights, anything goes - you can even put a curse on him. The sport, which dates back centuries, has become a South African institution. Any male from the age of nine to ninety can compete. We follow a group of fighters as they slug it out in the ring. Who will be this year's champion?\",\"popularity\":0.6,\"poster_path\":\"/tZDxttt0LfgAKwvLIWyOO3fr01c.jpg\",\"release_date\":\"2007-10-01\",\"title\":\"Musangwe: Fight Club\",\"video\":false,\"vote_average\":6.25,\"vote_count\":4},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28,18,80],\"id\":51021,\"original_language\":\"en\",\"original_title\":\"Lure: Teen Fight Club\",\"overview\":\"A community is under siege as three Belmont Highschool coed students go missing with no trace of their whereabouts. The pressure is on the police to capture the culprits responsible. Scouring the school hallways in search of clues, undercover female detective Maggie Rawdon (Jessica Sonnerborn) enters Belmont High as a transfer student in an attempt to solve the hideous disappearance of the students. Maggie makes a few new friends, and gets invited to a private rave in the country. Just as the group begins to suspect that they've taken a wrong turn, however, the trap is sprung and Maggie finds out firsthand what fate has befallen the missing girls.\",\"popularity\":1.744,\"poster_path\":\"/ipl6NdM0LwyakzLH9gKBDn8YhmZ.jpg\",\"release_date\":\"2010-11-16\",\"title\":\"Lure: Teen Fight Club\",\"video\":false,\"vote_average\":5.556,\"vote_count\":9},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":289100,\"original_language\":\"en\",\"original_title\":\"Girls Fight Club\",\"overview\":\"The best women's wrestling competition of all time...and if you think it's fake you're in for a big surprise See LEGENDARY Mixed Martial Arts fighters coach their teams to victory in the cage! aka Chuck Lidell's Girl's Fight Club\",\"popularity\":0.6,\"poster_path\":null,\"release_date\":\"2009-06-18\",\"title\":\"Girls Fight Club\",\"video\":false,\"vote_average\":5.25,\"vote_count\":2},{\"adult\":false,\"backdrop_path\":\"/z8MzErK9gYLHgvqYKMapqk7rqyZ.jpg\",\"genre_ids\":[],\"id\":877673,\"original_language\":\"en\",\"original_title\":\"Superhero Fight Club 2.0\",\"overview\":\"Barry and Oliver introduce Supergirl to the new fight club, Felicity and Cisco applying additional features to the fight in which The Flash, Green Arrow, Supergirl, White Canary, Firestorm and Atom need to fight to stay alive.\",\"popularity\":0.6,\"poster_path\":\"/edt0iegDlAqPddRunIixcpNsja4.jpg\",\"release_date\":\"2016-09-29\",\"title\":\"Superhero Fight Club 2.0\",\"video\":false,\"vote_average\":6.6,\"vote_count\":5},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[16,35],\"id\":615408,\"original_language\":\"en\",\"original_title\":\"Fight Club But With Tennis And No Fight\",\"overview\":\"Drama descends upon two tennis-obsessed women as the tension moves from off the court and into the café.\",\"popularity\":0.6,\"poster_path\":\"/8pEQqVtSpgCtb7dzhR55EO1dC3l.jpg\",\"release_date\":\"2019-07-13\",\"title\":\"Fight Club But With Tennis And No Fight\",\"video\":false,\"vote_average\":7.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":969532,\"original_language\":\"en\",\"original_title\":\"GCW: Fight Club Houston\",\"overview\":\"On July 9th GCW presents Fight Club Houston straight from Premier Arena in Houston, Texas. The lineup is almost completed, check it below:  AJ Gray vs Bryan Keith  Nick Gage vs Sadika  Joey Janela vs Dante  Ninja Mack vs Jack Cartwheel  Effy vs Gino  Jimmy Lloyd vs Carter  Lucha Scramble  .... more to be added soon!\",\"popularity\":0.6,\"poster_path\":\"/353CATo61TQERENVF6AqIqhUD51.jpg\",\"release_date\":\"2021-07-09\",\"title\":\"GCW: Fight Club Houston\",\"video\":true,\"vote_average\":5.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/lBENxZ1nmHXkTKV0AJu1agnW8Mg.jpg\",\"genre_ids\":[],\"id\":877672,\"original_language\":\"en\",\"original_title\":\"Superhero Fight Club\",\"overview\":\"Oliver introduces Barry to his own little fight club which features such members as Roy Harper, Laurel Lance, Malcolm Merlyn and Ra's Al Ghul.\",\"popularity\":0.6,\"poster_path\":\"/riAUCTb0NBakJxlBMB801gQlF1j.jpg\",\"release_date\":\"2015-04-13\",\"title\":\"Superhero Fight Club\",\"video\":false,\"vote_average\":6.714,\"vote_count\":7},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":944789,\"original_language\":\"en\",\"original_title\":\"Leopard Fight Club\",\"overview\":\"Witness a remarkable coming-of-age story as we track a young leopard's journey from rookie to royalty in South Africa's lethal Big Five landscape. When we first meet Jack, he's clumsy, fearful, and weak, but he's a fast learner - and he'll need to be. He's destined for a showdown with the area's current leopard monarch, an alpha male with a real mean streak. We follow Jack as he hones his skills and builds up muscle for the ultimate catfight. It's a battle where only the winner will walk out alive.\",\"popularity\":0.6,\"poster_path\":\"/pNhu0kvxvBJhpzDEwKf9Zdphbfg.jpg\",\"release_date\":\"\",\"title\":\"Leopard Fight Club\",\"video\":false,\"vote_average\":6.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":818666,\"original_language\":\"en\",\"original_title\":\"Triller Fight Club: Jake Paul vs Ben Askren\",\"overview\":\"Jake Paul vs. Ben Askren is an professional boxing match between YouTuber Jake Paul and former MMA fighter Ben Askren.  The bout took take place on April 17, 2021, at the Mercedes-Benz Stadium in Atlanta, Georgia.\",\"popularity\":0.796,\"poster_path\":\"/pFxHnZhetfHpXlcYTNTFZFt6pBq.jpg\",\"release_date\":\"2021-04-17\",\"title\":\"Triller Fight Club: Jake Paul vs Ben Askren\",\"video\":true,\"vote_average\":5.0,\"vote_count\":3},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":935845,\"original_language\":\"en\",\"original_title\":\"GCW: Fight Club 2 Houston\",\"overview\":\"Are you ready for the GCW: Fight Club 2?  On February 4th GCW: Fight Club 2 is live on FITE straight from Houston Premier Arena, TX!  Check the full lineup below:  4-way match  Mascara Dorada vs Gringo Loco vs Blake Christian vs ASF  Atticus Cogar vs Gino Medina  All-Star Scramble  Matthew Justice vs Allie Katch vs Grim Reefer vs Jimmy Lloyd vs Jordan Oliver vs Chris Carter  GCW Extreme Championship  AJ Gray vs Mysterious Q  Bryan Keith vs Effy  Ninja Mack vs Nick Wayne  Loko Wrestling Championship  Dante Leon vs Sam Stackhouse  Matt Tremont vs Sadika  *lineup subject to change\",\"popularity\":0.6,\"poster_path\":\"/bPPvoNxWcoqSvw0SnigOZpcxKmN.jpg\",\"release_date\":\"2022-02-04\",\"title\":\"GCW: Fight Club 2 Houston\",\"video\":true,\"vote_average\":8.0,\"vote_count\":1}],\"total_pages\":2,\"total_results\":39}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:27:38 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=The%20Godfather",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 13:43:05 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "56a64f47f8106d7619e8171cd39534d0"
+          ],
+          "X-Memc-Age": [
+            "18612"
+          ],
+          "X-Memc-Expires": [
+            "2988"
+          ],
+          "Etag": [
+            "W/\"9e6843650ea5f25e353c0a273e91e9e1\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 1c80fe425edf82026702c486fb324fd0.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "dfbIAeKUV4f2Ae5d6oqmQTyUoCF_6XJElE6sGuk1g_DMxrey85-uYA=="
+          ],
+          "Age": [
+            "27905"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":\"/tmU7GeKVybMWFButWEGl2M4GeiP.jpg\",\"genre_ids\":[18,80],\"id\":238,\"original_language\":\"en\",\"original_title\":\"The Godfather\",\"overview\":\"Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.\",\"popularity\":120.733,\"poster_path\":\"/3bhkrj58Vtu7enYsRolD1fZdja1.jpg\",\"release_date\":\"1972-03-14\",\"title\":\"The Godfather\",\"video\":false,\"vote_average\":8.712,\"vote_count\":17642},{\"adult\":false,\"backdrop_path\":\"/kGzFbGhp99zva6oZODW5atUtnqi.jpg\",\"genre_ids\":[18,80],\"id\":240,\"original_language\":\"en\",\"original_title\":\"The Godfather Part II\",\"overview\":\"In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.\",\"popularity\":82.896,\"poster_path\":\"/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg\",\"release_date\":\"1974-12-20\",\"title\":\"The Godfather Part II\",\"video\":false,\"vote_average\":8.597,\"vote_count\":10692},{\"adult\":false,\"backdrop_path\":\"/zNnjHLDtV8Ti3aworltaeaLMov4.jpg\",\"genre_ids\":[80,18,53],\"id\":242,\"original_language\":\"en\",\"original_title\":\"The Godfather Part III\",\"overview\":\"In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.\",\"popularity\":59.26,\"poster_path\":\"/lm3pQ2QoQ16pextRsmnUbG2onES.jpg\",\"release_date\":\"1990-12-25\",\"title\":\"The Godfather Part III\",\"video\":false,\"vote_average\":7.421,\"vote_count\":5378},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[80,35],\"id\":1050474,\"original_language\":\"en\",\"original_title\":\"The Godfather\",\"overview\":\"An angry comedy set in the world of really organized crime.\",\"popularity\":0.651,\"poster_path\":\"/hGiNkRgXTkF4C6WplyPrglEKtd0.jpg\",\"release_date\":\"2023-01-28\",\"title\":\"The Godfather\",\"video\":false,\"vote_average\":0.0,\"vote_count\":0},{\"adult\":false,\"backdrop_path\":\"/fE0Xmb0GaAm1R5NkrMuPezjoGwS.jpg\",\"genre_ids\":[28,35,53],\"id\":70829,\"original_language\":\"ko\",\"original_title\":\"The Last Godfather\",\"overview\":\"Young-goo the son of mafia boss Don Carini, is too foolish to be part of the mafia elite. One day, Young-goo comes to his father and is trained by Tony V to be his father's successor. A few days later, Young-goo accidentally rescues Nancy, the only daughter of Don Bonfante, the boss of a rival mafia family. But Vinnie, an under-boss of the Bonfante family kidnapped her and fabricates that Young-goo has taken her. Vinnie's behavior provokes an armed conflict between the two families.\",\"popularity\":2.694,\"poster_path\":\"/zLcKGxKn8qgrGaUZAWZY3Nvi5fr.jpg\",\"release_date\":\"2010-12-29\",\"title\":\"The Last Godfather\",\"video\":false,\"vote_average\":4.7,\"vote_count\":13},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28,80,18],\"id\":79026,\"original_language\":\"en\",\"original_title\":\"El padrino\",\"overview\":\"In the streets of East Los Angeles, Manny is a formidable drug dealer. Impressed by his extravagant lifestyle and prowess, his young son, Kilo, yearns to follow in his footsteps. Kilo resolves to learn how to prosper in the drug world, and his new life as a dealer begins. In a world where a man wants everything, he may end up with nothing.\",\"popularity\":9.14,\"poster_path\":\"/10J7EQ8WvMYku8lcZrLewV2Ko4I.jpg\",\"release_date\":\"2004-09-27\",\"title\":\"El padrino: The Latin Godfather\",\"video\":false,\"vote_average\":6.8,\"vote_count\":31},{\"adult\":false,\"backdrop_path\":\"/tYjyk4Ij7CwVOn2ovcXdRYffR9k.jpg\",\"genre_ids\":[80,18],\"id\":364150,\"original_language\":\"en\",\"original_title\":\"The Godfather Trilogy: 1901-1980\",\"overview\":\"The multigenerational saga of the rise and fall of the Corleone crime family. Story is told in chronological order, and numerous scenes that were deleted from each film have been restored.\",\"popularity\":10.222,\"poster_path\":\"/rwEP0RwpF2mKGRbs7jerdC4aeMB.jpg\",\"release_date\":\"1992-10-17\",\"title\":\"The Godfather Trilogy: 1901-1980\",\"video\":true,\"vote_average\":8.9,\"vote_count\":140},{\"adult\":false,\"backdrop_path\":\"/3otb50i2hzoToonuOaKn1ZQws9u.jpg\",\"genre_ids\":[99,10402],\"id\":606215,\"original_language\":\"en\",\"original_title\":\"The Black Godfather\",\"overview\":\"Follows the life of Clarence Avant, the ultimate, uncensored mentor and behind-the-scenes rainmaker in music, film, TV and politics.\",\"popularity\":5.091,\"poster_path\":\"/3BQArnXPwM5nHeS1tlGKLY7eapP.jpg\",\"release_date\":\"2019-06-07\",\"title\":\"The Black Godfather\",\"video\":false,\"vote_average\":6.8,\"vote_count\":26},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":294636,\"original_language\":\"en\",\"original_title\":\"The Godfather Legacy\",\"overview\":\"THE GODFATHER LEGACY goes deep inside Francis Ford Coppola's epic saga about the Corleone crime family and reveals how the Academy Award-winning film and its sequels became one of the most acclaimed franchises in Hollywood history. Featuring iconic scenes from all three films, never before seen home movies and insightful interviews with filmmakers (Francis Ford Coppola, All Ruddy and Peter Bart), actors (Al Pacino, James Caan, Talia Shire, Joe Mantegna, et al.), law enforcement officials and even former Mafia members. This feature length documentary illustrates why The Godfather trilogy continues to entertain and fascinate audiences and how it continues to impact the way society views everything from capitalism to crime.\",\"popularity\":3.479,\"poster_path\":\"/9y9w5prvVjBtwWl9TNtvThL0NNi.jpg\",\"release_date\":\"2012-07-12\",\"title\":\"The Godfather Legacy\",\"video\":false,\"vote_average\":7.0,\"vote_count\":15},{\"adult\":false,\"backdrop_path\":\"/c1vrJxyuKhswMm9IbRJJhsFXm0I.jpg\",\"genre_ids\":[99],\"id\":56205,\"original_language\":\"en\",\"original_title\":\"'The Godfather' Family: A Look Inside\",\"overview\":\"A documentary on the making of the three Godfather films, with interviews and recollections from the film makers and cast. This feature also includes the original screen tests of some of the actors for \\\"The Godfather\\\" film, and some candid moments on the set of \\\"The Godfather: Part III.\\\"\",\"popularity\":5.321,\"poster_path\":\"/2Ex3ynNc95pxkeLmwvGeYVWjKta.jpg\",\"release_date\":\"1990-07-12\",\"title\":\"'The Godfather' Family: A Look Inside\",\"video\":false,\"vote_average\":7.743,\"vote_count\":35},{\"adult\":false,\"backdrop_path\":\"/pS8xPQ1HFsiiKfamKcLoh3yYVNJ.jpg\",\"genre_ids\":[99,10402],\"id\":485918,\"original_language\":\"en\",\"original_title\":\"The Godfathers of Hardcore\",\"overview\":\"Documentary following Roger Miret and Vinnie Stigma of the band, Agnostic Front who played a key role in defining, shaping and establishing the sound and cultural code of conduct for the still-thriving movement. Unlike the dozens of bands that have come and gone, Agnostic Front is still going strong.\",\"popularity\":3.14,\"poster_path\":\"/xs0xxDawafML2seVqby8K0qWeRz.jpg\",\"release_date\":\"2018-12-12\",\"title\":\"The Godfathers of Hardcore\",\"video\":false,\"vote_average\":6.5,\"vote_count\":10},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[35],\"id\":260889,\"original_language\":\"it\",\"original_title\":\"L'altra faccia del padrino\",\"overview\":\"The Godfather Don Vito Monreale knows, by chance, the Italian-American singer Nick Bouillon. Since the two are alike, Don Vito decided to exploit this similarity in his favour.\",\"popularity\":2.136,\"poster_path\":\"/yFI6AyrblDaTkJu3iYpZhdSp8wx.jpg\",\"release_date\":\"1973-05-03\",\"title\":\"The Funny Face of the Godfather\",\"video\":false,\"vote_average\":2.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/awi1iAqxSDDrC7eF7xEY0uQCgsB.jpg\",\"genre_ids\":[28,80,53],\"id\":80755,\"original_language\":\"en\",\"original_title\":\"The Black Godfather\",\"overview\":\"The heroes in The Black Godfather are members of an African-American criminal organization. Like Brando in The Godfather, they're not averse to robbery and murder, but they do draw the line at narcotics. When the Mafia infiltrates the 'hood with dangerous drugs, the Black Godfather (Rod Perry) orders his minions to put an end to this perfidy.\",\"popularity\":2.621,\"poster_path\":\"/4B7wQFfKlcAS3QFL95iSnYcdlfJ.jpg\",\"release_date\":\"1974-09-03\",\"title\":\"The Black Godfather\",\"video\":false,\"vote_average\":5.0,\"vote_count\":9},{\"adult\":false,\"backdrop_path\":\"/j4wwKS0aokfGe7QDYqU2k6744hi.jpg\",\"genre_ids\":[99,27],\"id\":58862,\"original_language\":\"en\",\"original_title\":\"Herschell Gordon Lewis: The Godfather of Gore\",\"overview\":\"Take an outrageous ride through this wild world of exploitation films with this thoroughly entertaining documentary, HERSCHELL GORDON LEWIS – THE GODFATHER OF GORE! Featuring cult director John Waters, Drive-In Movie Critic Joe Bob Briggs, Herschell Gordon Lewis himself and a “cast of thousands,” you’ll witness the innocent bare-naked era of Nudie-Cuties before Lewis schocked the world with “Blood Feast,” the first ever gore film!\",\"popularity\":3.137,\"poster_path\":\"/mzwiMxr0a5xOe3R8d5c2DlkCYzM.jpg\",\"release_date\":\"2010-06-01\",\"title\":\"Herschell Gordon Lewis: The Godfather of Gore\",\"video\":false,\"vote_average\":6.2,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99,36],\"id\":454229,\"original_language\":\"en\",\"original_title\":\"The Medici: Godfathers of the Renaissance\",\"overview\":\"From a small Italian community in 15th-century Florence, the Medici family would rise to rule Europe in many ways. Using charm, patronage, skill, duplicity and ruthlessness, they would amass unparalleled wealth and unprecedented power. They would also ignite the most important cultural and artistic revolution in Western history -- the European Renaissance. But the forces of change the Medici helped unleash would one day topple their ordered world.\",\"popularity\":1.446,\"poster_path\":\"/1d9JXkKlFS9c1mxdENuGlogWnUD.jpg\",\"release_date\":\"2004-02-04\",\"title\":\"The Medici: Godfathers of the Renaissance\",\"video\":false,\"vote_average\":8.0,\"vote_count\":4},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[80,28],\"id\":90020,\"original_language\":\"it\",\"original_title\":\"La mano lunga del padrino\",\"overview\":\"A  treacherous low-level mafioso greedily rips off a shipment of arms from his powerful godfather and tries to sell them to an especially dubious group of Arabs\",\"popularity\":1.375,\"poster_path\":\"/eRwiJc2cFguRcx3sxNOIh63gCfJ.jpg\",\"release_date\":\"1972-08-11\",\"title\":\"The Long Arm of the Godfather\",\"video\":false,\"vote_average\":0.0,\"vote_count\":0},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[53,28,80,18],\"id\":260892,\"original_language\":\"it\",\"original_title\":\"L'amico del padrino\",\"overview\":\"Richard Harrison is the Mob hit man who finds friendships can get you into trouble when he meets an old buddy who turns out to be part of an opposing family!\",\"popularity\":1.206,\"poster_path\":\"/cPii9mxWJpcvwN72TlNLEGIFWVo.jpg\",\"release_date\":\"1972-12-24\",\"title\":\"The Godfather's Friend\",\"video\":false,\"vote_average\":2.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/mDMCET9Ens5ANvZAWRpluBsMAtS.jpg\",\"genre_ids\":[80,18],\"id\":970689,\"original_language\":\"en\",\"original_title\":\"The Godfather 1901–1959: The Complete Epic\",\"overview\":\"The Godfather 1901–1959: The Complete Epic is a reduced, 386-minute version of the 1977 television miniseries, \\\"Mario Puzo's The Godfather: The Complete Novel for Television,\\\" released to video in 1981. Unlike the miniseries, which was presented in four segments (each with opening and closing credits), the Epic is presented as a single segment. In January 2016, HBO aired the Epic in its uncut and uncensored format, later making it available on its streaming platforms. The HBO showing contained most of the known deleted scenes, thereby lengthening the runtime of the Epic from its video release to 423 minutes.\",\"popularity\":1.254,\"poster_path\":\"/DGCsKaQgcp4QkX7ulL1BMbkIkr.jpg\",\"release_date\":\"1981-03-24\",\"title\":\"The Godfather 1901–1959: The Complete Epic\",\"video\":true,\"vote_average\":10.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":526803,\"original_language\":\"en\",\"original_title\":\"Fred: The Godfather of British Crime\",\"overview\":\"This is an examination into the psyche of former London gangster Freddie Foreman: 85 years old, allegedly responsible for multiple murders, and nearing the end of his life. Fred is the only gangster who lived through the turbulent history of the British underworld and survived to tell the tale.\",\"popularity\":1.946,\"poster_path\":\"/eNIE8eB38KAjZuye58wXFDJP79n.jpg\",\"release_date\":\"2018-04-20\",\"title\":\"Fred: The Godfather of British Crime\",\"video\":false,\"vote_average\":7.2,\"vote_count\":6},{\"adult\":false,\"backdrop_path\":\"/7qKkAKYhnIqZMQ9hWVUZ1zV6kLb.jpg\",\"genre_ids\":[80],\"id\":260872,\"original_language\":\"it\",\"original_title\":\"I contrabbandieri di Santa Lucia\",\"overview\":\"A revolution in Iran halts a heroin shipment, but an alliance of crime families is set on getting it to the US.  They decide to run the drug through an unsuspecting network of good-natured, local smugglers in Naples, while an international anti-narcotics agent rushes to shut their operation down.  Betrayals and divided loyalties lead to a  final, bloody confrontation in America.\",\"popularity\":2.693,\"poster_path\":\"/n8ZKrhC2zJCsOMPel882EPMDZyj.jpg\",\"release_date\":\"1979-08-24\",\"title\":\"The New Godfathers\",\"video\":false,\"vote_average\":6.5,\"vote_count\":3}],\"total_pages\":5,\"total_results\":88}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:28:10 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=batman",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 16:13:27 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "1c52f154e97603f7925abead3a072b11"
+          ],
+          "X-Memc-Age": [
+            "16647"
+          ],
+          "X-Memc-Expires": [
+            "4953"
+          ],
+          "Etag": [
+            "W/\"4efc8ba03e8f24a0b8489d4c51787357\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 9b688924e5b0f0b5e4c639d19cb145f0.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "uSY8FpGvTKOKRoqw8Dijwkvywh6UyMzFn0CoQMkZFIjlQPIYbT6NmA=="
+          ],
+          "Age": [
+            "18883"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":\"/2va32apQP97gvUxaMnL5wYt4CRB.jpg\",\"genre_ids\":[14,28,80],\"id\":268,\"original_language\":\"en\",\"original_title\":\"Batman\",\"overview\":\"Batman must face his most ruthless nemesis when a deformed madman calling himself \\\"The Joker\\\" seizes control of Gotham's criminal underworld.\",\"popularity\":43.4,\"poster_path\":\"/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg\",\"release_date\":\"1989-06-23\",\"title\":\"Batman\",\"video\":false,\"vote_average\":7.214,\"vote_count\":6816},{\"adult\":false,\"backdrop_path\":\"/bxxupqG6TBLKC60M6L8iOvbQEr6.jpg\",\"genre_ids\":[28,35,80],\"id\":2661,\"original_language\":\"en\",\"original_title\":\"Batman\",\"overview\":\"The Dynamic Duo faces four super-villains who plan to hold the world for ransom with the help of a secret invention that instantly dehydrates people.\",\"popularity\":20.207,\"poster_path\":\"/zzoPxWHnPa0eyfkMLgwbNvdEcVF.jpg\",\"release_date\":\"1966-07-30\",\"title\":\"Batman\",\"video\":false,\"vote_average\":6.294,\"vote_count\":723},{\"adult\":false,\"backdrop_path\":\"/xEG5iP1qZCiDt4BefSpLy1d54zE.jpg\",\"genre_ids\":[28,12,80,878,53,10752],\"id\":125249,\"original_language\":\"en\",\"original_title\":\"Batman\",\"overview\":\"Japanese master spy Daka operates a covert espionage-sabotage organization located in Gotham City's now-deserted Little Tokyo, which turns American scientists into pliable zombies. The great crime-fighters Batman and Robin, with the help of their allies, are in pursuit.\",\"popularity\":6.236,\"poster_path\":\"/6XYL5JRHxaLLd0ZwsBugaAuGHTa.jpg\",\"release_date\":\"1943-07-16\",\"title\":\"Batman\",\"video\":false,\"vote_average\":6.6,\"vote_count\":42},{\"adult\":false,\"backdrop_path\":\"/7eccX0xay9pDj6ZQvU4cu3whw18.jpg\",\"genre_ids\":[16,9648,14,28,27],\"id\":1003579,\"original_language\":\"en\",\"original_title\":\"Batman: The Doom That Came to Gotham\",\"overview\":\"Explorer Bruce Wayne accidentally unleashes an ancient evil, and returns to Gotham after being away for two decades. There, Batman battles Lovecraftian supernatural forces and encounters allies and enemies such as Green Arrow, Ra's al Ghul, Mr. Freeze, Killer Croc, Two-Face and James Gordon.\",\"popularity\":1012.789,\"poster_path\":\"/hrATQE8ScQceohwInaMluluNEaf.jpg\",\"release_date\":\"2023-03-10\",\"title\":\"Batman: The Doom That Came to Gotham\",\"video\":false,\"vote_average\":6.734,\"vote_count\":32},{\"adult\":false,\"backdrop_path\":\"/b0PlSFdDwbyK0cf5RxwDpaOJQvQ.jpg\",\"genre_ids\":[80,9648,53],\"id\":414906,\"original_language\":\"en\",\"original_title\":\"The Batman\",\"overview\":\"In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.\",\"popularity\":231.724,\"poster_path\":\"/74xTEgt7R36Fpooo50r9T25onhq.jpg\",\"release_date\":\"2022-03-01\",\"title\":\"The Batman\",\"video\":false,\"vote_average\":7.71,\"vote_count\":7700},{\"adult\":false,\"backdrop_path\":\"/8VSaa8ZCy43zm7aRzsyCnKOfarm.jpg\",\"genre_ids\":[16,28,878],\"id\":886396,\"original_language\":\"en\",\"original_title\":\"Batman and Superman: Battle of the Super Sons\",\"overview\":\"After discovering he has powers, 11-year-old Jonathan Kent and assassin-turned-Boy-Wonder Damian Wayne must join forces to rescue their fathers (Superman \\u0026 Batman) and save the planet from the malevolent alien force known as Starro.\",\"popularity\":81.593,\"poster_path\":\"/mvffaexT5kA3chOnGxwBSlRoshh.jpg\",\"release_date\":\"2022-10-18\",\"title\":\"Batman and Superman: Battle of the Super Sons\",\"video\":false,\"vote_average\":7.9,\"vote_count\":186},{\"adult\":false,\"backdrop_path\":\"/5fX1oSGuYdKgwWmUTAN5MNSQGzr.jpg\",\"genre_ids\":[28,12,14],\"id\":209112,\"original_language\":\"en\",\"original_title\":\"Batman v Superman: Dawn of Justice\",\"overview\":\"Fearing the actions of a god-like Super Hero left unchecked, Gotham City’s own formidable, forceful vigilante takes on Metropolis’s most revered, modern-day savior, while the world wrestles with what sort of hero it really needs. And with Batman and Superman at war with one another, a new threat quickly arises, putting mankind in greater danger than it’s ever known before.\",\"popularity\":70.436,\"poster_path\":\"/5UsK3grJvtQrtzEgqNlDljJW96w.jpg\",\"release_date\":\"2016-03-23\",\"title\":\"Batman v Superman: Dawn of Justice\",\"video\":false,\"vote_average\":5.941,\"vote_count\":16614},{\"adult\":false,\"backdrop_path\":\"/8pOUmMgVnl1tYNtTRTE5TeyGBGD.jpg\",\"genre_ids\":[16,28,878],\"id\":485942,\"original_language\":\"ja\",\"original_title\":\"ニンジャバットマン\",\"overview\":\"Batman, along with many of his allies and adversaries, finds himself transported to feudal Japan by Gorilla Grodd's time displacement machine.\",\"popularity\":18.22,\"poster_path\":\"/5xSB0Npkc9Fd9kahKBsq9P4Cdzp.jpg\",\"release_date\":\"2018-03-24\",\"title\":\"Batman Ninja\",\"video\":false,\"vote_average\":5.805,\"vote_count\":840},{\"adult\":false,\"backdrop_path\":\"/ew5FcYiRhTYNJAkxoVPMNlCOdVn.jpg\",\"genre_ids\":[28,80,18],\"id\":272,\"original_language\":\"en\",\"original_title\":\"Batman Begins\",\"overview\":\"Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.\",\"popularity\":54.047,\"poster_path\":\"/8RW2runSEc34IwKN2D1aPcJd2UL.jpg\",\"release_date\":\"2005-06-10\",\"title\":\"Batman Begins\",\"video\":false,\"vote_average\":7.695,\"vote_count\":18850},{\"adult\":false,\"backdrop_path\":\"/3WP0RObZ2t7ShHfqQpKPljF9B22.jpg\",\"genre_ids\":[28,14],\"id\":364,\"original_language\":\"en\",\"original_title\":\"Batman Returns\",\"overview\":\"While Batman deals with a deformed man calling himself the Penguin, an employee of a corrupt businessman transforms into the Catwoman.\",\"popularity\":36.087,\"poster_path\":\"/jKBjeXM7iBBV9UkUcOXx3m7FSHY.jpg\",\"release_date\":\"1992-06-19\",\"title\":\"Batman Returns\",\"video\":false,\"vote_average\":6.9,\"vote_count\":5702},{\"adult\":false,\"backdrop_path\":\"/eoMushgujydxFplE9yPZ54lwOvo.jpg\",\"genre_ids\":[16,28,35,10751],\"id\":324849,\"original_language\":\"en\",\"original_title\":\"The Lego Batman Movie\",\"overview\":\"A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan who wishes to become his sidekick.\",\"popularity\":35.062,\"poster_path\":\"/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg\",\"release_date\":\"2017-02-08\",\"title\":\"The Lego Batman Movie\",\"video\":false,\"vote_average\":7.2,\"vote_count\":4384},{\"adult\":false,\"backdrop_path\":\"/kU7ZiyeUwcpTkYj3UcxSqGdZmxY.jpg\",\"genre_ids\":[16,28],\"id\":618353,\"original_language\":\"en\",\"original_title\":\"Batman: Death in the Family\",\"overview\":\"Tragedy strikes the Batman's life again when Robin Jason Todd tracks down his birth mother only to run afoul of the Joker. An adaptation of the 1988 comic book storyline of the same name.\",\"popularity\":35.059,\"poster_path\":\"/k8Q9ulyRE8fkvZMkAM9LPYMKctb.jpg\",\"release_date\":\"2020-10-13\",\"title\":\"Batman: Death in the Family\",\"video\":false,\"vote_average\":7.196,\"vote_count\":365},{\"adult\":false,\"backdrop_path\":\"/ymX3MnaxAO3jJ6EQnuNBRWJYiPC.jpg\",\"genre_ids\":[16,9648,28,80],\"id\":736074,\"original_language\":\"en\",\"original_title\":\"Batman: The Long Halloween, Part Two\",\"overview\":\"As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones.\",\"popularity\":30.935,\"poster_path\":\"/f46QMSo2wAVY1ywrNc9yZv0rkNy.jpg\",\"release_date\":\"2021-07-26\",\"title\":\"Batman: The Long Halloween, Part Two\",\"video\":false,\"vote_average\":7.5,\"vote_count\":407},{\"adult\":false,\"backdrop_path\":\"/uS9apevOgs2fuYghf9szOoK1u63.jpg\",\"genre_ids\":[16,9648,28,80],\"id\":736073,\"original_language\":\"en\",\"original_title\":\"Batman: The Long Halloween, Part One\",\"overview\":\"Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent.\",\"popularity\":25.728,\"poster_path\":\"/fvaB0jrzFXq07bUpox03k6qOAJu.jpg\",\"release_date\":\"2021-06-21\",\"title\":\"Batman: The Long Halloween, Part One\",\"video\":false,\"vote_average\":7.5,\"vote_count\":487},{\"adult\":false,\"backdrop_path\":\"/m4UT6yKXhXgbzxpeV35L4jLoJoP.jpg\",\"genre_ids\":[28,878,12,35],\"id\":415,\"original_language\":\"en\",\"original_title\":\"Batman \\u0026 Robin\",\"overview\":\"Batman and Robin deal with relationship issues while preventing Mr. Freeze and Poison Ivy from attacking Gotham City.\",\"popularity\":33.6,\"poster_path\":\"/cGRDufDDSrFrv7VI4YnmWnslne0.jpg\",\"release_date\":\"1997-06-20\",\"title\":\"Batman \\u0026 Robin\",\"video\":false,\"vote_average\":4.3,\"vote_count\":4449},{\"adult\":false,\"backdrop_path\":\"/9Eh5xzWTpJeZM1FGCblWKZ8GTpw.jpg\",\"genre_ids\":[878,28,16,9648],\"id\":142061,\"original_language\":\"en\",\"original_title\":\"Batman: The Dark Knight Returns, Part 2\",\"overview\":\"Batman has stopped the reign of terror that The Mutants had cast upon his city.  Now an old foe wants a reunion and the government wants The Man of Steel to put a stop to Batman.\",\"popularity\":29.738,\"poster_path\":\"/arEZYd6uMOFTILne9Ux0A8qctMe.jpg\",\"release_date\":\"2013-01-03\",\"title\":\"Batman: The Dark Knight Returns, Part 2\",\"video\":false,\"vote_average\":7.971,\"vote_count\":1253},{\"adult\":false,\"backdrop_path\":\"/snlu32RmjldF9b068UURJg8sQtn.jpg\",\"genre_ids\":[28,80,14],\"id\":414,\"original_language\":\"en\",\"original_title\":\"Batman Forever\",\"overview\":\"Batman must battle a disfigured district attorney and a disgruntled former employee with help from an amorous psychologist and a young circus acrobat.\",\"popularity\":29.37,\"poster_path\":\"/mzzNBVwTiiY94xAXDMWJpNPW2US.jpg\",\"release_date\":\"1995-06-16\",\"title\":\"Batman Forever\",\"video\":false,\"vote_average\":5.4,\"vote_count\":4592},{\"adult\":false,\"backdrop_path\":\"/scNssnn5PN99fBODNzxF5qN4Iw8.jpg\",\"genre_ids\":[16,10751,28,878],\"id\":16234,\"original_language\":\"en\",\"original_title\":\"Batman Beyond: Return of the Joker\",\"overview\":\"The Joker is back with a vengeance, and Gotham's newest Dark Knight, Terry McGinnis, needs answers as he stands alone to face Gotham's most infamous Clown Prince of Crime.\",\"popularity\":22.773,\"poster_path\":\"/7RlBs0An83fqAuKfwH5gKMcqgMc.jpg\",\"release_date\":\"2000-12-12\",\"title\":\"Batman Beyond: Return of the Joker\",\"video\":false,\"vote_average\":7.312,\"vote_count\":979},{\"adult\":false,\"backdrop_path\":\"/1YaG52CwGY3pKh76OBlwX0ymncg.jpg\",\"genre_ids\":[878,28,16,9648],\"id\":123025,\"original_language\":\"en\",\"original_title\":\"Batman: The Dark Knight Returns, Part 1\",\"overview\":\"Batman has not been seen for ten years. A new breed of criminal ravages Gotham City, forcing 55-year-old Bruce Wayne back into the cape and cowl. But, does he still have what it takes to fight crime in a new era?\",\"popularity\":27.092,\"poster_path\":\"/kkjTbwV1Xnj8wBL52PjOcXzTbnb.jpg\",\"release_date\":\"2012-08-21\",\"title\":\"Batman: The Dark Knight Returns, Part 1\",\"video\":false,\"vote_average\":7.745,\"vote_count\":1367},{\"adult\":false,\"backdrop_path\":\"/jvRewPpawHAfBW38EzHoFdTVEez.jpg\",\"genre_ids\":[16,28,12,80,14],\"id\":732450,\"original_language\":\"en\",\"original_title\":\"Batman: Soul of the Dragon\",\"overview\":\"Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva.\",\"popularity\":22.711,\"poster_path\":\"/uDhnTtSxU5a8DtZdbbin3aZmkmU.jpg\",\"release_date\":\"2021-01-12\",\"title\":\"Batman: Soul of the Dragon\",\"video\":false,\"vote_average\":6.938,\"vote_count\":282}],\"total_pages\":8,\"total_results\":147}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:28:10 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=fight",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 13:43:05 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "7adb1aa0572b3e46e5895e476da586d4"
+          ],
+          "X-Memc-Age": [
+            "12598"
+          ],
+          "X-Memc-Expires": [
+            "9002"
+          ],
+          "Etag": [
+            "W/\"0b21f8fc5d208099c49a305f50649b11\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 cf7db6af8b8a86ebeb9fc938221e81da.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "nylqaBvtOUqR9dea9dQNjGwDh7jBHWCDkzqmXSzFt9NchvttX4CCfQ=="
+          ],
+          "Age": [
+            "27906"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":757019,\"original_language\":\"en\",\"original_title\":\"Fight\",\"overview\":\"An improvised hour-long fight between Brigid Berlin \\u0026 Charles Rydell. Produced by Andy Warhol.\",\"popularity\":0.999,\"poster_path\":\"/sKLsn8KckO0uP1jaQR7jsmGdkNj.jpg\",\"release_date\":\"1973-01-01\",\"title\":\"Fight\",\"video\":false,\"vote_average\":6.35,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[16,28,14],\"id\":227326,\"original_language\":\"ja\",\"original_title\":\"FIGHT!!\",\"overview\":\"Yonosuke Hikura appears to be an ordinary high school student. Yet he has inherited the important role of protecting the harmony between Heaven and Earth. With the help of the magical sword Chitentai, and Tsukinojo Inbe, he courageously battles the demons, sending them back to the Earth World, from which they have escaped.\",\"popularity\":3.497,\"poster_path\":\"/2ctuOltpgm2IXHZ5tbTstFwQ4tT.jpg\",\"release_date\":\"1993-06-17\",\"title\":\"Fight!! Spirit of the Sword\",\"video\":false,\"vote_average\":6.222,\"vote_count\":18},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[16],\"id\":723745,\"original_language\":\"en\",\"original_title\":\"Fight!\",\"overview\":\"Two friends fighting dirty\",\"popularity\":0.755,\"poster_path\":\"/1KpQ8Rhl1T3rzypivqsOZusXQ4g.jpg\",\"release_date\":\"2014-09-17\",\"title\":\"Fight!\",\"video\":false,\"vote_average\":5.875,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":\"/sixB73DmQ5HxgBuHQWpELSNUnTN.jpg\",\"genre_ids\":[16,28,35],\"id\":45287,\"original_language\":\"ja\",\"original_title\":\"はじめの一歩 -Champion Road-\",\"overview\":\"Makunouchi Ippo is the new Featherweight champion of Japan and is now ready for his first title defense. His opponent, the former Jr. Featherweight champion and a medical student, Sanada Kazuki. In addition to this feud, Sanada is being coached by Kamogawa's former rival, Hama Dankichi. What makes things worse is that Sanada works at the same hospital where Kumi is a nurse at and everybody at the hospital wants Sanada to win. Not only does Ippo have to defend his title, he has to reclaim his love.\",\"popularity\":25.566,\"poster_path\":\"/cI56CuhEYcv3Myrm05SmQfNDrnZ.jpg\",\"release_date\":\"2003-06-25\",\"title\":\"Fighting Spirit: Champion Road\",\"video\":false,\"vote_average\":6.719,\"vote_count\":48},{\"adult\":false,\"backdrop_path\":\"/al1DWKnt5kcSeV9onSJTdpqtRmq.jpg\",\"genre_ids\":[16,35,18,28],\"id\":45288,\"original_language\":\"ja\",\"original_title\":\"Espíritu de lucha OVA: Mashiba vs Kimura\",\"overview\":\"Kimura finally has his championship match. It takes place at the annual champion carnival. But now he must face the intense champion, Mashiba for the Junior Lightweight championship.\",\"popularity\":27.297,\"poster_path\":\"/9UNq2kogJ0fNA6TfFJdJt0PXOwV.jpg\",\"release_date\":\"2003-09-05\",\"title\":\"Fighting Spirit - Mashiba vs. Kimura\",\"video\":false,\"vote_average\":6.0,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":\"/hZkgoQYus5vegHoetLkCJzb17zJ.jpg\",\"genre_ids\":[18,53,35],\"id\":550,\"original_language\":\"en\",\"original_title\":\"Fight Club\",\"overview\":\"A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \\\"fight clubs\\\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.\",\"popularity\":81.106,\"poster_path\":\"/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg\",\"release_date\":\"1999-10-15\",\"title\":\"Fight Club\",\"video\":false,\"vote_average\":8.432,\"vote_count\":26059},{\"adult\":false,\"backdrop_path\":\"/reMt35KtqTTIy0mhcKA1PfuruDq.jpg\",\"genre_ids\":[16,28],\"id\":12613,\"original_language\":\"ja\",\"original_title\":\"ストリートファイター II MOVIE\",\"overview\":\"Bison, the ruthless leader of the international terrorist organization Shadowlaw, has been desperately searching for the greatest fighter on the planet for years. He finds it in Ryu, a young wanderer who never stays in one place long enough for Bison to find him. He does, however, get a fix on Ken Masters, an American martial arts champion who studied with Ryu as a child under the same master. Meanwhile, Major Guile of the United States Army is forced to team up with Chun Li from China in hopes of apprehending Bison and putting a stop his international ring of crime.\",\"popularity\":22.472,\"poster_path\":\"/dZ1rqmE4eIhPbUCr7sn2Pw2wwGW.jpg\",\"release_date\":\"1994-08-06\",\"title\":\"Street Fighter II: The Animated Movie\",\"video\":false,\"vote_average\":6.905,\"vote_count\":194},{\"adult\":false,\"backdrop_path\":\"/1VqE5z4VIOcNcajJuHLk4fDkY9G.jpg\",\"genre_ids\":[28,27],\"id\":289732,\"original_language\":\"zh\",\"original_title\":\"屍城\",\"overview\":\"It's the end of the century at a corner of the city in a building riddled with crime - Everyone in the building has turned into zombies. After Jenny's boyfriend is killed in a zombie attack, she faces the challenge of surviving in the face of adversity. In order to stay alive, she struggles with Andy to flee danger.\",\"popularity\":12.897,\"poster_path\":\"/u8u3KVq0qfJYmNDsaTVOXy4So6f.jpg\",\"release_date\":\"2014-10-23\",\"title\":\"Zombie Fight Club\",\"video\":false,\"vote_average\":4.543,\"vote_count\":47},{\"adult\":false,\"backdrop_path\":\"/qo0QMHbtINR4JAux50G6p5bLiPG.jpg\",\"genre_ids\":[16,28],\"id\":68449,\"original_language\":\"ja\",\"original_title\":\"グラップラー刃牙\",\"overview\":\"His name is Baki Hanma. No one knows where he came from or where he learned his unique fighting style.  When it comes to Karate, Baki Hanma is just plain GOOD. He can defeat an opponent with a single blow and he's taking the Karate Championship by storm. In a prestigious match, he defeats competitor after competitor even though he's totally unknown and barely even ranked.  But now he's in for the fight of his life and he may have just met his match. Anything goes and his opponent can rip his nerves out -- literally. If he wins, he's the BEST. If he loses... he's DEAD.\",\"popularity\":13.803,\"poster_path\":\"/p2vheIGpvG4qvUfXmKvJGy70FLp.jpg\",\"release_date\":\"1994-08-21\",\"title\":\"Grappler Baki: The Ultimate Fighter\",\"video\":false,\"vote_average\":6.576,\"vote_count\":34},{\"adult\":false,\"backdrop_path\":\"/2jlmBNJrsZnKoBWUtUVkil9iyXO.jpg\",\"genre_ids\":[16,35,28,10749],\"id\":37024,\"original_language\":\"ja\",\"original_title\":\"らんま½ 中国寝崑崙大決戦! 掟やぶりの激闘篇!\",\"overview\":\"When Prince Kirin of the 7 Lucky Gods shows up at the Tendo dojo looking for his bride-to-be, guess who's accidentally holding the scroll that signifies his future mate? Why, Akane, of course, and the rest of the Ranma crew is forced to take a boat to China in order to save her from the horrors of marriage and a diet of pickled vegetables.\",\"popularity\":14.269,\"poster_path\":\"/2dB9Cx6dXIwr7Hx1jhnADOzwrLC.jpg\",\"release_date\":\"1991-11-02\",\"title\":\"Ranma ½: The Movie — The Battle of Nekonron: The Fight to Break the Rules!\",\"video\":false,\"vote_average\":7.119,\"vote_count\":63},{\"adult\":false,\"backdrop_path\":\"/jznP87h6Mo5E8s5wNqoCCgcT86i.jpg\",\"genre_ids\":[35,80,9648,28],\"id\":66657,\"original_language\":\"cn\",\"original_title\":\"逃學威龍III之龍過雞年\",\"overview\":\"Chow Sing-Sing returns, only this time he doesn’t go back to school. Instead, Chow goes undercover as the husband of a wealthy socialite, which doesn’t sit well with his fiancée, who tries to convince Chow to quit working as undercover.\",\"popularity\":13.233,\"poster_path\":\"/gwq4z0x4ISsXI9Ra9EJhBIzyUTN.jpg\",\"release_date\":\"1993-01-14\",\"title\":\"Fight Back to School 3\",\"video\":false,\"vote_average\":6.479,\"vote_count\":47},{\"adult\":false,\"backdrop_path\":\"/qtr8bm14X04mcq8chjSJmNX5TJm.jpg\",\"genre_ids\":[28,16],\"id\":114372,\"original_language\":\"ja\",\"original_title\":\"真救世主伝説 北斗の拳 ラオウ伝 激闘の章\",\"overview\":\"A film adaptation of the Last Nanto General story arc from the manga, depicting the final battle between Kenshiro and Raoh that led to Kenshiro becoming the successor of Hokuto Shinken. Some events from the manga / anime have been excluded from the story (such as Raoh's fight with Juza) whereas others have been altered or expanded. New content featuring the final battle from Raoh's perspective have been added. This film serves as the follow-up to the first film in the series, which introduced Raoh and Reina's relationship, this time bringing it to a conclusion.\",\"popularity\":12.592,\"poster_path\":\"/eQI4zxgXVj5wb6YGGmwauSPdvIp.jpg\",\"release_date\":\"2007-04-28\",\"title\":\"Fist of the North Star: Legend of Raoh - Chapter of Fierce Fight\",\"video\":false,\"vote_average\":6.5,\"vote_count\":55},{\"adult\":false,\"backdrop_path\":\"/9XGU37CXAa68sPH3bqYkH16Rp4A.jpg\",\"genre_ids\":[28,12],\"id\":10798,\"original_language\":\"fr\",\"original_title\":\"Les Chevaliers du ciel\",\"overview\":\"Two air force pilots prevent a terrorist attack on the Bastille Day celebrations in Paris.\",\"popularity\":8.766,\"poster_path\":\"/hfu7GuPkfb2jnP3z5eGbQ5Vkjiw.jpg\",\"release_date\":\"2005-10-15\",\"title\":\"Sky Fighters\",\"video\":false,\"vote_average\":6.098,\"vote_count\":169},{\"adult\":false,\"backdrop_path\":\"/rJEoVgTCoxKbd843PzGRw14K4kk.jpg\",\"genre_ids\":[28,18],\"id\":21115,\"original_language\":\"ko\",\"original_title\":\"바람의 파이터\",\"overview\":\"An account of karate competitor Choi Yeung-Eui who went to Japan after World War II to become a fighter pilot but found a very different path instead. He changed his name to Masutatsu Oyama and went across the country, defeating martial artists one after another. This film concentrates on the period when he is still young, and developing his famous karate style, Kyokushin.\",\"popularity\":7.944,\"poster_path\":\"/tp4YiskOE7aciwfPomXuruGfxnY.jpg\",\"release_date\":\"2004-08-12\",\"title\":\"Fighter in the Wind\",\"video\":false,\"vote_average\":7.166,\"vote_count\":151},{\"adult\":false,\"backdrop_path\":\"/swWHSWHUjD1URCNhHkgiMBSi1eb.jpg\",\"genre_ids\":[28,18],\"id\":579221,\"original_language\":\"en\",\"original_title\":\"American Fighter\",\"overview\":\"A desperate teenager is forced into the dangerous world of underground fighting to win enough money to save his ailing mother. He finds out what he's made of in the face of these violent hungry competitors.\",\"popularity\":2.9,\"poster_path\":\"/z6AFVt8VIfolXaakluFLIcv6xCG.jpg\",\"release_date\":\"2021-04-29\",\"title\":\"American Fighter\",\"video\":false,\"vote_average\":6.344,\"vote_count\":16},{\"adult\":false,\"backdrop_path\":\"/mMP5otHjSzDYSMpOdqy8bO3Avks.jpg\",\"genre_ids\":[10751,16,12,35],\"id\":11625,\"original_language\":\"fr\",\"original_title\":\"Astérix et le coup du menhir\",\"overview\":\"Gaullish custom requires that a would-be chief must challenge and defeat another to become the leader of two tribes. Vitalstatistix is not perturbed because of Getafix's magic potion. Getafix, however has an accident and forgets how to make it. Then Vitalstatistix is suddenly challenged.\",\"popularity\":8.296,\"poster_path\":\"/rcFi9JvJMjwxp4lK66v4KueqglW.jpg\",\"release_date\":\"1989-10-04\",\"title\":\"Asterix and the Big Fight\",\"video\":false,\"vote_average\":6.4,\"vote_count\":519},{\"adult\":false,\"backdrop_path\":\"/fnvOXOispIr2cvRc8sGIlTQC2bQ.jpg\",\"genre_ids\":[878],\"id\":472685,\"original_language\":\"en\",\"original_title\":\"Fighting the Sky\",\"overview\":\"Strange other-worldly sounds are echoing around the world. A group of researchers, led by expert ufologist Lorraine Gardner, begin an expedition to track down the point of origin from which the sounds emerge. Yet as their journey deepens, they begin to discover more than they bargained for.\",\"popularity\":2.981,\"poster_path\":\"/ojL9FI7YBnN839lvK9I6e7XQdyz.jpg\",\"release_date\":\"2018-10-05\",\"title\":\"Fighting the Sky\",\"video\":false,\"vote_average\":6.0,\"vote_count\":18},{\"adult\":false,\"backdrop_path\":\"/tO2x1l6Mvg9M8n0qcFc8l17bBVw.jpg\",\"genre_ids\":[10749,28,18],\"id\":364080,\"original_language\":\"te\",\"original_title\":\"Bruce Lee - The Fighter\",\"overview\":\"When a stuntman is mistaken for a police officer, he begins fighting crime.\",\"popularity\":4.009,\"poster_path\":\"/qNYG0NLXcdZEW56pcOjrm0w6Vos.jpg\",\"release_date\":\"2015-10-16\",\"title\":\"Bruce Lee - The Fighter\",\"video\":false,\"vote_average\":6.154,\"vote_count\":26},{\"adult\":false,\"backdrop_path\":\"/k3YjcOIpvTvD3EEesHq0J5S79ls.jpg\",\"genre_ids\":[28,16],\"id\":17433,\"original_language\":\"ja\",\"original_title\":\"ストリートファイターZERO\",\"overview\":\"Increasingly disturbed by the dark energies building within him, Ryu is confronted by Shun, a boy claiming to be the brother he never knew. But before Ryu can consider whether Shun's timely appearance might be more than coincidental, Shun is kidnapped by Shadowlaw. To recover Shun, Ryu must undertake the ultimate journey of self-discovery and learn to control the power threatening to consume him.\",\"popularity\":7.58,\"poster_path\":\"/qVbT7Ypqj9xyWYfX0JbBu8Rv5BS.jpg\",\"release_date\":\"1999-12-22\",\"title\":\"Street Fighter Alpha: The Movie\",\"video\":false,\"vote_average\":6.5,\"vote_count\":71},{\"adult\":false,\"backdrop_path\":\"/amLGmoZO78zXWD7pScbAC5U8RzT.jpg\",\"genre_ids\":[10752,18],\"id\":248087,\"original_language\":\"ja\",\"original_title\":\"永遠の0\",\"overview\":\"A brother and sister learn their biological grandfather was a kamikaze pilot who died during World War II. During their research into his life, they get conflicting accounts from his former comrades about his character and how he joined his squadron.\",\"popularity\":4.768,\"poster_path\":\"/uTIo53KCbhCaWLZcLrtAjghYh2U.jpg\",\"release_date\":\"2013-12-20\",\"title\":\"The Fighter Pilot\",\"video\":false,\"vote_average\":6.912,\"vote_count\":51}],\"total_pages\":115,\"total_results\":2288}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:28:11 GMT"
+    },
+    {
+      "request": {
+        "method": "get",
+        "uri": "https://api.themoviedb.org/3/search/movie?api_key=api_key&query=Fight%20Club",
+        "body": {
+          "encoding": "US-ASCII",
+          "string": ""
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v2.7.4"
+          ],
+          "Accept-Encoding": [
+            "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+          ],
+          "Accept": [
+            "*/*"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json;charset=utf-8"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Date": [
+            "Fri, 24 Mar 2023 13:43:09 GMT"
+          ],
+          "Server": [
+            "openresty"
+          ],
+          "Cache-Control": [
+            "public, max-age=28800"
+          ],
+          "X-Memc": [
+            "HIT"
+          ],
+          "X-Memc-Key": [
+            "0cd14138ae78d0d35a8fdad6755d5f96"
+          ],
+          "X-Memc-Age": [
+            "4491"
+          ],
+          "X-Memc-Expires": [
+            "17109"
+          ],
+          "Etag": [
+            "W/\"eca04290172cc118fb16915cfff7cb1a\""
+          ],
+          "Vary": [
+            "Accept-Encoding",
+            "Origin"
+          ],
+          "X-Cache": [
+            "Hit from cloudfront"
+          ],
+          "Via": [
+            "1.1 3dc4c80cd959e984309833cac8f5a630.cloudfront.net (CloudFront)"
+          ],
+          "X-Amz-Cf-Pop": [
+            "DEN52-P2"
+          ],
+          "Alt-Svc": [
+            "h3=\":443\"; ma=86400"
+          ],
+          "X-Amz-Cf-Id": [
+            "dn5db-x5sCnGbOipkIaBm9AezoouMhlHasE4DQgzFMmbf7BRIQd7nw=="
+          ],
+          "Age": [
+            "27906"
+          ]
+        },
+        "body": {
+          "encoding": "ASCII-8BIT",
+          "string": "{\"page\":1,\"results\":[{\"adult\":false,\"backdrop_path\":\"/hZkgoQYus5vegHoetLkCJzb17zJ.jpg\",\"genre_ids\":[18,53,35],\"id\":550,\"original_language\":\"en\",\"original_title\":\"Fight Club\",\"overview\":\"A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \\\"fight clubs\\\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.\",\"popularity\":81.106,\"poster_path\":\"/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg\",\"release_date\":\"1999-10-15\",\"title\":\"Fight Club\",\"video\":false,\"vote_average\":8.432,\"vote_count\":26061},{\"adult\":false,\"backdrop_path\":\"/1VqE5z4VIOcNcajJuHLk4fDkY9G.jpg\",\"genre_ids\":[28,27],\"id\":289732,\"original_language\":\"zh\",\"original_title\":\"屍城\",\"overview\":\"It's the end of the century at a corner of the city in a building riddled with crime - Everyone in the building has turned into zombies. After Jenny's boyfriend is killed in a zombie attack, she faces the challenge of surviving in the face of adversity. In order to stay alive, she struggles with Andy to flee danger.\",\"popularity\":12.897,\"poster_path\":\"/u8u3KVq0qfJYmNDsaTVOXy4So6f.jpg\",\"release_date\":\"2014-10-23\",\"title\":\"Zombie Fight Club\",\"video\":false,\"vote_average\":4.543,\"vote_count\":47},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[35,18],\"id\":323667,\"original_language\":\"ru\",\"original_title\":\"Вставай и бейся\",\"overview\":\"Intertwined stories from the gladiator/athletes participating to the Calcio Storico Fiorentino yearly championship.\",\"popularity\":2.126,\"poster_path\":\"/rPCOC0myV3Vr7nYGMAOAOpUXgH3.jpg\",\"release_date\":\"2015-06-21\",\"title\":\"Florence Fight Club\",\"video\":false,\"vote_average\":5.722,\"vote_count\":9},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":973534,\"original_language\":\"ru\",\"original_title\":\"Бойцовский клуб (русская версия)\",\"overview\":\"The Russian version of the movie \\\"Fight Club\\\" is not just a Russian version of a well-known cult film, it is the result and of the hard work of two young men and their love for cinema, Alexander Kukhar (GOLOBON-TV) and Dmitry Ivanov (GRIZLIK FILM) , who are responsible for this project, from the development of its idea and the selection of the cast, to the organization of filming and financial support.  Filming lasted a whole year. Everyday work, constant trips, searching for suitable film sets and an exhausting schedule - all this was not in vain and resulted in an unusually amazing and original project - the film \\\"Fight Club\\\", created in the very heart of southern Russia, in the city of Krasnodar, by two young people\",\"popularity\":0.6,\"poster_path\":null,\"release_date\":\"\",\"title\":\"Fight Club (Russian version)\",\"video\":false,\"vote_average\":7.8,\"vote_count\":5},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":883656,\"original_language\":\"en\",\"original_title\":\"GCW Fight Club\",\"overview\":\"GCW presents Fight Club straight from the Showboat Hotel in Atlantic City, NJ! The event features the GCW World Championship match where Mox defends against Gage in a match that we have been waiting for during the last decade. Who will be the new GCW World Champion?\",\"popularity\":3.554,\"poster_path\":\"/a9RWdhRLyx3BqCjlwmZJHXyeMkR.jpg\",\"release_date\":\"2021-10-09\",\"title\":\"GCW Fight Club\",\"video\":true,\"vote_average\":6.0,\"vote_count\":4},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28],\"id\":347807,\"original_language\":\"hi\",\"original_title\":\"Fight Club: Members Only\",\"overview\":\"Four friends head off to Bombay and get involved in the mother and father of all gang wars.\",\"popularity\":2.821,\"poster_path\":\"/aXFmWfWYCCxQTkCn7K86RvDiMHZ.jpg\",\"release_date\":\"2006-02-17\",\"title\":\"Fight Club: Members Only\",\"video\":false,\"vote_average\":4.5,\"vote_count\":12},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":259016,\"original_language\":\"en\",\"original_title\":\"Insane Fight Club\",\"overview\":\"A group of friends have created a brand new subculture that is taking over the streets of Glasgow. They've established their very own fight club, but this is no ordinary wrestling event - this is brutal, riotous chaos. Fights don't always stay inside the ring, people are bounced off the side of buses and thrown off balconies in pubs. They now plan the biggest show of their lives. The stakes are high, will it bring them the fame and recognition they need to survive?\",\"popularity\":1.297,\"poster_path\":null,\"release_date\":\"2014-03-11\",\"title\":\"Insane Fight Club\",\"video\":false,\"vote_average\":4.333,\"vote_count\":3},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":151912,\"original_language\":\"en\",\"original_title\":\"Jurassic Fight Club\",\"overview\":\"Jurassic Fight Club, a paleontology-based miniseries that ran for 12 episodes, depicts how prehistoric beasts hunted their prey, dissecting these battles and uncovering a predatory world far more calculated and complex than originally thought. It was hosted by George Blasing, a self-taught paleontologist.\",\"popularity\":0.6,\"poster_path\":null,\"release_date\":\"2008-10-22\",\"title\":\"Jurassic Fight Club\",\"video\":false,\"vote_average\":7.4,\"vote_count\":5},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28,99,12],\"id\":104782,\"original_language\":\"it\",\"original_title\":\"Florence Fight Club\",\"overview\":\"Four men decided to enter in the oldest Fight Club of the History, The Florentine Football tournament. A father and son, a black guy, an old champion and outsider clerk will enter in an arena of the time to win their fears, to go over their limits, to be heroes for a day.\",\"popularity\":0.84,\"poster_path\":null,\"release_date\":\"2010-01-01\",\"title\":\"Florence Fight Club\",\"video\":false,\"vote_average\":7.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":322772,\"original_language\":\"en\",\"original_title\":\"Insane Fight Club II - This Time It’s Personal\",\"overview\":\"Insane Fight Club is back. This year the boys are taking their unique form of entertainment to England as they stage fight nights in Birmingham, Leeds, Liverpool and Newcastle.\",\"popularity\":2.982,\"poster_path\":null,\"release_date\":\"2015-01-21\",\"title\":\"Insane Fight Club II - This Time It’s Personal\",\"video\":false,\"vote_average\":7.0,\"vote_count\":2},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[99],\"id\":532155,\"original_language\":\"en\",\"original_title\":\"Musangwe: Fight Club\",\"overview\":\"The first rule is that there are no rules. For the bare-knuckle combatants competing in Musangwe fights, anything goes - you can even put a curse on him. The sport, which dates back centuries, has become a South African institution. Any male from the age of nine to ninety can compete. We follow a group of fighters as they slug it out in the ring. Who will be this year's champion?\",\"popularity\":0.6,\"poster_path\":\"/tZDxttt0LfgAKwvLIWyOO3fr01c.jpg\",\"release_date\":\"2007-10-01\",\"title\":\"Musangwe: Fight Club\",\"video\":false,\"vote_average\":6.25,\"vote_count\":4},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[28,18,80],\"id\":51021,\"original_language\":\"en\",\"original_title\":\"Lure: Teen Fight Club\",\"overview\":\"A community is under siege as three Belmont Highschool coed students go missing with no trace of their whereabouts. The pressure is on the police to capture the culprits responsible. Scouring the school hallways in search of clues, undercover female detective Maggie Rawdon (Jessica Sonnerborn) enters Belmont High as a transfer student in an attempt to solve the hideous disappearance of the students. Maggie makes a few new friends, and gets invited to a private rave in the country. Just as the group begins to suspect that they've taken a wrong turn, however, the trap is sprung and Maggie finds out firsthand what fate has befallen the missing girls.\",\"popularity\":1.744,\"poster_path\":\"/ipl6NdM0LwyakzLH9gKBDn8YhmZ.jpg\",\"release_date\":\"2010-11-16\",\"title\":\"Lure: Teen Fight Club\",\"video\":false,\"vote_average\":5.556,\"vote_count\":9},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":289100,\"original_language\":\"en\",\"original_title\":\"Girls Fight Club\",\"overview\":\"The best women's wrestling competition of all time...and if you think it's fake you're in for a big surprise See LEGENDARY Mixed Martial Arts fighters coach their teams to victory in the cage! aka Chuck Lidell's Girl's Fight Club\",\"popularity\":0.6,\"poster_path\":null,\"release_date\":\"2009-06-18\",\"title\":\"Girls Fight Club\",\"video\":false,\"vote_average\":5.25,\"vote_count\":2},{\"adult\":false,\"backdrop_path\":\"/z8MzErK9gYLHgvqYKMapqk7rqyZ.jpg\",\"genre_ids\":[],\"id\":877673,\"original_language\":\"en\",\"original_title\":\"Superhero Fight Club 2.0\",\"overview\":\"Barry and Oliver introduce Supergirl to the new fight club, Felicity and Cisco applying additional features to the fight in which The Flash, Green Arrow, Supergirl, White Canary, Firestorm and Atom need to fight to stay alive.\",\"popularity\":0.6,\"poster_path\":\"/edt0iegDlAqPddRunIixcpNsja4.jpg\",\"release_date\":\"2016-09-29\",\"title\":\"Superhero Fight Club 2.0\",\"video\":false,\"vote_average\":6.6,\"vote_count\":5},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[16,35],\"id\":615408,\"original_language\":\"en\",\"original_title\":\"Fight Club But With Tennis And No Fight\",\"overview\":\"Drama descends upon two tennis-obsessed women as the tension moves from off the court and into the café.\",\"popularity\":0.6,\"poster_path\":\"/8pEQqVtSpgCtb7dzhR55EO1dC3l.jpg\",\"release_date\":\"2019-07-13\",\"title\":\"Fight Club But With Tennis And No Fight\",\"video\":false,\"vote_average\":7.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":969532,\"original_language\":\"en\",\"original_title\":\"GCW: Fight Club Houston\",\"overview\":\"On July 9th GCW presents Fight Club Houston straight from Premier Arena in Houston, Texas. The lineup is almost completed, check it below:  AJ Gray vs Bryan Keith  Nick Gage vs Sadika  Joey Janela vs Dante  Ninja Mack vs Jack Cartwheel  Effy vs Gino  Jimmy Lloyd vs Carter  Lucha Scramble  .... more to be added soon!\",\"popularity\":0.6,\"poster_path\":\"/353CATo61TQERENVF6AqIqhUD51.jpg\",\"release_date\":\"2021-07-09\",\"title\":\"GCW: Fight Club Houston\",\"video\":true,\"vote_average\":5.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/lBENxZ1nmHXkTKV0AJu1agnW8Mg.jpg\",\"genre_ids\":[],\"id\":877672,\"original_language\":\"en\",\"original_title\":\"Superhero Fight Club\",\"overview\":\"Oliver introduces Barry to his own little fight club which features such members as Roy Harper, Laurel Lance, Malcolm Merlyn and Ra's Al Ghul.\",\"popularity\":0.6,\"poster_path\":\"/riAUCTb0NBakJxlBMB801gQlF1j.jpg\",\"release_date\":\"2015-04-13\",\"title\":\"Superhero Fight Club\",\"video\":false,\"vote_average\":6.714,\"vote_count\":7},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":944789,\"original_language\":\"en\",\"original_title\":\"Leopard Fight Club\",\"overview\":\"Witness a remarkable coming-of-age story as we track a young leopard's journey from rookie to royalty in South Africa's lethal Big Five landscape. When we first meet Jack, he's clumsy, fearful, and weak, but he's a fast learner - and he'll need to be. He's destined for a showdown with the area's current leopard monarch, an alpha male with a real mean streak. We follow Jack as he hones his skills and builds up muscle for the ultimate catfight. It's a battle where only the winner will walk out alive.\",\"popularity\":0.6,\"poster_path\":\"/pNhu0kvxvBJhpzDEwKf9Zdphbfg.jpg\",\"release_date\":\"\",\"title\":\"Leopard Fight Club\",\"video\":false,\"vote_average\":6.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":818666,\"original_language\":\"en\",\"original_title\":\"Triller Fight Club: Jake Paul vs Ben Askren\",\"overview\":\"Jake Paul vs. Ben Askren is an professional boxing match between YouTuber Jake Paul and former MMA fighter Ben Askren.  The bout took take place on April 17, 2021, at the Mercedes-Benz Stadium in Atlanta, Georgia.\",\"popularity\":0.796,\"poster_path\":\"/pFxHnZhetfHpXlcYTNTFZFt6pBq.jpg\",\"release_date\":\"2021-04-17\",\"title\":\"Triller Fight Club: Jake Paul vs Ben Askren\",\"video\":true,\"vote_average\":5.0,\"vote_count\":3},{\"adult\":false,\"backdrop_path\":null,\"genre_ids\":[],\"id\":935845,\"original_language\":\"en\",\"original_title\":\"GCW: Fight Club 2 Houston\",\"overview\":\"Are you ready for the GCW: Fight Club 2?  On February 4th GCW: Fight Club 2 is live on FITE straight from Houston Premier Arena, TX!  Check the full lineup below:  4-way match  Mascara Dorada vs Gringo Loco vs Blake Christian vs ASF  Atticus Cogar vs Gino Medina  All-Star Scramble  Matthew Justice vs Allie Katch vs Grim Reefer vs Jimmy Lloyd vs Jordan Oliver vs Chris Carter  GCW Extreme Championship  AJ Gray vs Mysterious Q  Bryan Keith vs Effy  Ninja Mack vs Nick Wayne  Loko Wrestling Championship  Dante Leon vs Sam Stackhouse  Matt Tremont vs Sadika  *lineup subject to change\",\"popularity\":0.6,\"poster_path\":\"/bPPvoNxWcoqSvw0SnigOZpcxKmN.jpg\",\"release_date\":\"2022-02-04\",\"title\":\"GCW: Fight Club 2 Houston\",\"video\":true,\"vote_average\":8.0,\"vote_count\":1}],\"total_pages\":2,\"total_results\":39}"
+        }
+      },
+      "recorded_at": "Fri, 24 Mar 2023 21:28:15 GMT"
     }
   ],
   "recorded_with": "VCR 6.1.0"
