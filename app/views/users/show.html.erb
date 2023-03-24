@@ -1,30 +1,62 @@
-<%= "#{@user.name}'s Dashboard" %>
+<div style="background-color: #606060; color: #FFFFFF; padding: 20px; border-radius: 10px;">
+  <h1 style="font-size: 2.5rem; margin-bottom: 20px;"><%= "#{@user.name}'s Dashboard" %></h1>
 
-<%= button_to "Discover Movies", user_discover_path(@user), method: :get %>
-<h2><%= "#{@user.name}'s Viewing Parties" %></h2>
-<% @viewing_parties.each do |party| %>
-<div id="<%="#{party.id}"%>-party-details">
-  <% if party.host == @user %>
-    <p><strong>You are hosting this party:</strong></p>
-  <% else %>
-    <p><strong>Hosted by:</strong> <%= party.host %></p>
-  <% end %>
-
-  <p><strong>Movie:</strong> <%= link_to "#{party.movie_title}", "/users/#{@user.id}/movies/#{party.movie_id}" %></p>
-  <%= image_tag "https://image.tmdb.org/t/p/w500#{party.movie_poster}" %>
-
-  <p><strong>Date:</strong> <%= party.date %></p>
-  <p><strong>Time:</strong> <%= party.time %></p>
+  <%= button_to "Discover Movies", user_discover_path(@user), method: :get, style: "background-color: #2C3E50; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; font-size: 1rem; font-weight: bold;" %>
   
-  <p><strong>Invited:</strong></p>
-    <% party.guests.each do |user| %>
-      <% if user == @user %>
-        <li><strong><%= user.name %></strong></li>
-      <% else %>
-        <li><%= user.name %></li>
-      <% end %>
+  <h2 style="font-size: 2rem; margin: 40px 0 20px;"><%= "#{@user.name}'s Viewing Parties" %></h2>
+  
+  <div class="grid-container">
+    <% @viewing_parties.each do |party| %>
+      <div class="grid-item">
+        <div id="<%="#{party.id}"%>-party-details" style="background-color: #FFFFFF; color: #606060; padding: 20px; border-radius: 10px; margin-bottom: 20px; border: 2px solid #2C3E50;">
+          <% if party.host == @user %>
+            <p><strong>You are hosting this party:</strong></p>
+          <% else %>
+            <p><strong>Hosted by:</strong> <%= party.host %></p>
+          <% end %>
+
+          <p><strong>Movie:</strong> <%= link_to "#{party.movie_title}", "/users/#{@user.id}/movies/#{party.movie_id}", style: "color: #2C3E50; text-decoration: none; font-weight: bold;" %></p>
+          <%= image_tag "https://image.tmdb.org/t/p/w500#{party.movie_poster}" %>
+
+          <p><strong>Date:</strong> <%= party.date %></p>
+          <p><strong>Time:</strong> <%= party.time %></p>
+          
+          <p><strong>Invited:</strong></p>
+          <ul>
+            <% party.guests.each do |user| %>
+              <% if user == @user %>
+                <li><strong><%= user.name %></strong></li>
+              <% else %>
+                <li><%= user.name %></li>
+              <% end %>
+            <% end %>
+          </ul>
+        </div>
+      </div>
     <% end %>
-  </ul>
-  <br>
   </div>
-<% end %>
+</div>
+
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

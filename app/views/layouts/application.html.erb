@@ -8,6 +8,45 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #F0F2F5;
+        color: #242526;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin: 20px 0;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      #nav_bar {
+        background-color: #FFFFFF;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+      }
+
+      #nav_bar a {
+        color: #242526;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 0 20px;
+      }
+
+      #flash_message {
+        background-color: #242526;
+        color: #FFFFFF;
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
 
   <body>

@@ -1,7 +1,14 @@
-<h1>Viewing Party Lite<h1>
-<p><%= button_to "Create New User", "/register", method: :get %></p>
-<div id="existing_users">
-  <ul><% @users.each do |user| %>
-    <li><%= link_to "#{user.name}", "/users/#{user.id}" %></li>
-  <% end %></ul>
+<p style="text-align: center; margin-top: 20px;">
+  <%= button_to "Create New User", "/register", method: :get, style: "background-color: #4CAF50; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; font-size: 1rem; font-weight: bold;" %>
+</p>
+
+<div id="existing_users" style="margin-top: 20px;">
+  <ul style="list-style-type: none; padding: 10px 0; margin: 0;">
+    <li style="font-weight: bold;">All Users:</li><br>
+    <% @users.each do |user| %>
+      <li style="margin-bottom: 10px;">
+        <%= link_to "#{user.name}", "/users/#{user.id}", style: "background-color: #EEE; color: #333; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 1rem; font-weight: bold;" %>
+      </li>
+    <% end %>
+  </ul>
 </div>

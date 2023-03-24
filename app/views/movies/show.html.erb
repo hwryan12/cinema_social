@@ -1,24 +1,39 @@
-<span><h1><%= @facade.movie_details.title %></h1></span>
-<span><%= button_to "Create A Viewing Party for #{@facade.movie_details.title}", "/users/#{@user.id}/movies/#{@facade.movie_details.id}/viewing-party/new", method: :get %></span>
-<br>
-<span><%= button_to "Discover Page", user_discover_path(@user), method: :get %></span>
-<br><br>
-Runtime: <%= @facade.movie_details.formatted_runtime %><br><br>
-Vote Rating: <%= @facade.movie_details.vote_average %><br><br>
-Genres:<br>
-<% @facade.movie_details.genres.each do |genre| %>
-  <%= genre %><br>
-<% end %><br>
-<%= @facade.movie_details.summary %><br><br>
-Cast:
-<% @facade.cast_members.each do |actor| %>
-  <ul class="cast_member"> 
-    <%= actor.name %><br>
-  </ul>
-<% end %><br>
-Reviews:
-<% @facade.movie_reviews.each do |review| %>
-  <%= "Author: #{review.author}" %><br>
-  <%= review.content %><br><br>
-<% end %>
- 
+<div style="background-color: #FFFFFF; color: #242526; padding: 20px; border-radius: 10px; font-family: Arial, sans-serif;">
+  <div style="border: 1px solid #EEE; border-radius: 5px; padding: 10px; margin-bottom: 20px;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 10px;"><%= @facade.movie_details.title %></h1>
+    <%= button_to "Create A Viewing Party for #{@facade.movie_details.title}",
+      "/users/#{@user.id}/movies/#{@facade.movie_details.id}/viewing-party/new",
+      method: :get,
+      style: "background-color: #4CAF50; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background-color 0.3s;" %>
+    <br>
+    <br>
+    <p style="margin-bottom: 10px;">Runtime: <%= @facade.movie_details.formatted_runtime %></p>
+    <p style="margin-bottom: 10px;">Vote Rating: <%= @facade.movie_details.vote_average %></p>
+    <p style="margin-bottom: 10px;">Genres:</p>
+    <% @facade.movie_details.genres.each do |genre| %>
+      <p style="margin-bottom: 5px;"><%= genre %></p>
+    <% end %>
+    <p style="margin-bottom: 10px;"><%= @facade.movie_details.summary %></p>
+  </div>
+
+  <div style="border: 1px solid #EEE; border-radius: 5px; padding: 10px; margin-bottom: 20px;">
+    <p style="margin-bottom: 10px;">Cast:</p>
+    <% @facade.cast_members.each do |actor| %>
+      <ul class="cast_member" style="list-style-type: none; margin: 0; padding: 0;">
+        <li style="margin-bottom: 5px;"><%= actor.name %></li>
+      </ul>
+    <% end %>
+  </div>
+
+  <div style="border: 1px solid #EEE; border-radius: 5px; padding: 10px; margin-bottom: 20px;">
+    <p style="margin-bottom: 10px;">Reviews:</p>
+    <% @facade.movie_reviews.each do |review| %>
+      <p style="margin-bottom: 5px;"><%= "Author: #{review.author}" %></p>
+      <p style="margin-bottom: 10px;"><%= review.content %></p>
+    <% end %>
+  </div>
+
+  <span style="display: block; margin-bottom: 20px;">
+    <%= button_to "Discover Page", user_discover_path(@user), method: :get, style: "background-color: #242526; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; font-size: 1rem; font-weight: bold; cursor: pointer; transition: background-color 0.3s;" %>
+  </span>
+</div>
